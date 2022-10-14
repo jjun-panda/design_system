@@ -1,0 +1,47 @@
+:root {
+  /* main color */
+  --MC: #00C389;
+  --MC_Sec: #E3F6EE;
+
+  /* seb color */
+  --SC:#00996B;
+  --SC_Sec: ##E0F3EC;
+
+  /* point color */
+  --point-color-1: #ff7a00;
+  --point-color-2: #ff913d;
+  --point-color-3: #ffa765;
+  --point-color-4: #ffbd9b;
+  --point-color-5: #ffd3b1;
+  --point-color-6: #ffe9d8;
+
+  --success-color: #5cb85c;
+  --warning-color: #f9a825;
+  --error-color: #ff3153;
+  --informational-color: #0091ea;
+
+  /* gray color */
+  --grey-black: #1e1e1e;
+  --gray-900: #272727;
+  --gray-800: #343434;
+  --gray-700: #494949;
+  --gray-500: #828282;
+  --gray-600: #626262;
+  --gray-400: #a7a7a7;
+  --gray-300: #c3c3c3;
+  --gray-200: #e9e9e9;
+  --gray-100: #f4f4f4;
+  --gray-50: #fafafa;
+  --gray-white: #ffffff;
+  --gray-white-50: rgba(255, 255, 255, 0.5);
+
+  /* fillter */
+  --pop-filter: rgba(0, 0, 0, 0.7);
+}
+
+.botton{
+	border-color : var(--gray-400);
+    &:hover{
+    	background-color : var(--grey-white);
+    }
+}
