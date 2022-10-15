@@ -1,9 +1,0 @@
-.fontname {
-	border: 1px solid var(--gray-900);
-	padding: 8px 16px;
-	display: inline-block;
-}
-
-.fontname .name {
-	color: var(--MC)
-}

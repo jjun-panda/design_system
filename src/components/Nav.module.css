@@ -1,0 +1,37 @@
+.nav {
+  position: relative;
+  z-index: 1;
+  height: 80px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: var(--white-50);
+  /* box-shadow: var(--box-shadow); */
+}
+
+.container  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.menu {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  list-style: none;
+}
+
+/* ul.menu>li:not(:last-child) {
+  margin-right: 30px;
+} */
+
+ul.menu a:hover,
+ul.menu a:active {
+  color: var(--MC);
+  text-decoration: underline;
+}
