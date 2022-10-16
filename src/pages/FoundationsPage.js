@@ -34,28 +34,28 @@ function FoundationsPage() {
                             width: '160px',
                             height: '160px',
                             borderRadius: '20px',
-                            backgroundColor: '#00C389'
+                            backgroundColor: 'var(--MC)'
                         }}/>
                     <div
                         style={{
                             marginTop: '8px',
                             width: '160px',
                             boxSizing: 'border-box',
-                            border: '1px solid #00C389'
+                            border: '1px solid var(--MC)'
                         }}/>
                     <div
                         style={{
                             marginTop: '8px',
                             width: '160px',
                             boxSizing: 'border-box',
-                            border: '2px solid #00C389'
+                            border: '2px solid var(--MC)'
                         }}/>
                     <div
                         style={{
                             marginTop: '8px',
                             width: '160px',
                             boxSizing: 'border-box',
-                            border: '3px solid #00C389'
+                            border: '3px solid var(--MC)'
                         }}/>
                 </div>
                 <div style={{
@@ -73,7 +73,7 @@ function FoundationsPage() {
                             <span
                                 className={styles.colorB}
                                 style={{
-                                    color: '#00C389'
+                                    color: 'var(--MC)'
                                 }}>미정, 조마간 기획 때 확정 예정</span>
                         </p>
                         <p
@@ -199,9 +199,9 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
+                                    border: '1px solid var(--MC)',
                                     backgroundColor: '#ffffff',
-                                    color: '#00C389'
+                                    color: 'var(--MC)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -210,9 +210,9 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
+                                    border: '1px solid var(--MC)',
                                     backgroundColor: '#272727',
-                                    color: '#00C389'
+                                    color: 'var(--MC)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -221,8 +221,8 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
-                                    backgroundColor: '#00C389',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: 'var(--MC)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -234,9 +234,9 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
+                                    border: '1px solid var(--MC)',
                                     backgroundColor: '#ffffff',
-                                    color: '#00C389'
+                                    color: 'var(--MC)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -245,9 +245,9 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
+                                    border: '1px solid var(--MC)',
                                     backgroundColor: '#272727',
-                                    color: '#00C389'
+                                    color: 'var(--MC)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -256,8 +256,8 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
-                                    backgroundColor: '#00C389',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: 'var(--MC)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -269,9 +269,9 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
+                                    border: '1px solid var(--MC)',
                                     backgroundColor: '#ffffff',
-                                    color: '#00C389'
+                                    color: 'var(--MC)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -280,9 +280,9 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
+                                    border: '1px solid var(--MC)',
                                     backgroundColor: '#272727',
-                                    color: '#00C389'
+                                    color: 'var(--MC)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -291,8 +291,8 @@ function FoundationsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid #00C389',
-                                    backgroundColor: '#00C389',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: 'var(--MC)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
