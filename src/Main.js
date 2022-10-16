@@ -5,10 +5,12 @@ import BrandPage from './pages/BrandPage';
 import BrandListPage from './pages/BrandListPage';
 import FoundationsPage from './pages/FoundationsPage';
 import WishlistPage from './pages/WishlistPage';
+import ScrollTop from './components/ScrollTop';
 
 function Main() {
     return (
         <BrowserRouter>
+            <ScrollTop/>
             <App>
                 <Routes>
                     <Route path="/" element={<HomePage />}/>

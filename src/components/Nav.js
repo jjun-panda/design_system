@@ -1,15 +1,18 @@
 import {Link} from 'react-router-dom'
 import Container from './Container';
+import Grid from './Grid';
 import UserMenu from './UserMenu';
 import logoImg from '../assets/logo.svg';
 import styles from './Nav.module.css';
+import classNames from 'classnames';
 
 function Nav() {
   return (
     <div className={styles.nav}>
-      <Container className={styles.container}>
+      <Container>
+        <Grid className={styles.container}>
         {/* <img src={logoImg} alt="Codethat Logo" /> */}
-        <Link to="/"><div>BIGWAVE Creative</div></Link>
+        <Link to="/"><div className={classNames(styles.logo, 'title-24')}>BIGWAVE Creative</div></Link>
         <ul className={styles.menu}>
           <Link to="/brand"><li>Brand</li></Link>
           <Link to="/foundations"><li>Foundations</li></Link>
@@ -20,6 +23,7 @@ function Nav() {
             <UserMenu />
           </li> */}
         </ul>
+        </Grid>
       </Container>
     </div>
   );

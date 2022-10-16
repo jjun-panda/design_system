@@ -1,0 +1,9 @@
+.grid {
+  margin: 0 auto;
+}
+
+@media (max-width: 11793px) {
+  .grid {
+    margin: 0 24px;
+  }
+}
