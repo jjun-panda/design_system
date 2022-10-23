@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import BrandPage from './pages/BrandPage';
 import BrandListPage from './pages/BrandListPage';
 import FoundationsPage from './pages/FoundationsPage';
+import ComponentsPage from './pages/ComponentsPage';
 import WishlistPage from './pages/WishlistPage';
 import ScrollTop from './components/ScrollTop';
 
@@ -17,6 +18,7 @@ function Main() {
                     <Route path="brand" element={<BrandListPage />}/>
                     <Route path="brand/react-frontend-development" element={<BrandPage />}/>
                     <Route path="foundations" element={<FoundationsPage />}/>
+                    <Route path="components" element={<ComponentsPage />}/>
                     <Route path="wishlist" element={<WishlistPage />}/>
                 </Routes>
             </App>
