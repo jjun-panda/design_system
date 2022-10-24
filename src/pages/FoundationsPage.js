@@ -11,6 +11,7 @@ function FoundationsPage() {
     return (
         <Container className={styles.topics}>
             <Grid>
+<<<<<<< Updated upstream
                 <div className={styles.side}>
                     {/* leftSide */}
                     <div className={styles.navigatorMain}>
@@ -33,6 +34,249 @@ function FoundationsPage() {
                                     <a className={classNames(styles.menu, 'body-16')}>Notation</a>
                                 </li>
                             </ul>
+=======
+            <div className={classNames(styles.f24, styles.m)}>
+                <div>현재 색상_#00C389</div>
+                <div className={styles.web}>웹접근성&nbsp;W&nbsp;<div className={styles.bad}>2.32</div>&nbsp;&nbsp;&nbsp;B&nbsp;<div className={styles.best}>9.04
+                    </div>
+                </div>
+            </div>
+            <div className={styles.name}/>
+            <div>
+                <div
+                    style={{
+                        paddingBottom: '40px'
+                    }}>
+                    <div><img
+                        src="https://marosol-bucket-dev.s3.ap-northeast-2.amazonaws.com/0211color/00c09f_logo.svg"
+                        alt=""
+                        height={50}
+                        style={{
+                marginBottom: '20px'
+            }}/></div>
+                    <div
+                        style={{
+                            width: '160px',
+                            height: '160px',
+                            borderRadius: '20px',
+                            backgroundColor: 'var(--MC)'
+                        }}/>
+                    <div
+                        style={{
+                            marginTop: '8px',
+                            width: '160px',
+                            boxSizing: 'border-box',
+                            border: '1px solid var(--MC)'
+                        }}/>
+                    <div
+                        style={{
+                            marginTop: '8px',
+                            width: '160px',
+                            boxSizing: 'border-box',
+                            border: '2px solid var(--MC)'
+                        }}/>
+                    <div
+                        style={{
+                            marginTop: '8px',
+                            width: '160px',
+                            boxSizing: 'border-box',
+                            border: '3px solid var(--MC)'
+                        }}/>
+                </div>
+                <div style={{
+                        display: 'block'
+                    }}>
+                    <div>
+                        <p
+                            style={{
+                                fontSize: '16px',
+                                border: '1px solid #272727',
+                                padding: '8px 16px',
+                                display: 'inline-block'
+                            }}
+                            className={styles.colorB}>전용서체 :
+                            <span
+                                className={styles.colorB}
+                                style={{
+                                    color: 'var(--MC)'
+                                }}>미정, 조마간 기획 때 확정 예정</span>
+                        </p>
+                        <p className='title-48'>
+                            <span>타이틀</span>
+                            48px 1.75 Bold (m 1.5)
+                        </p>
+                        <p className='title-36'>
+                            <span>타이틀</span>
+                            36px 1.75 Bold (m 1.5)
+                        </p>
+                        <p className='title-24'>
+                            <span>타이틀</span>
+                            24px 1.75 Bold (m 1.5)
+                        </p>
+                        <p className='title-20'>
+                            <span>타이틀</span>
+                            21px 1.75 Bold (m 1.5)
+                        </p>
+                        <p className='title-20'>
+                            <span>소제목</span>
+                            21px 1.75 Medium (m 1.5)
+                        </p>
+                        <p className='title-16'>
+                            <span>본문강조</span>
+                            or 유형 16px 1.5 Bold
+                        </p>
+                        <p className='title-16'>
+                            <span>소소제목</span>
+                            16px 1.5 Medium
+                        </p>
+                        <p className='body-16'>
+                            <span>본문</span>
+                            16px 1.5 Regular<br/>어렵고 막막한 로봇 도입, 혼자 고민하시기 막막하셨죠? 어떤 상황이든 딱 맞는 솔루션을 제공해 드리는
+                                로봇계의 솔로몬 마로솔로몬이 돌아왔습니다.👋<br/>마로솔은
+                                산업용로봇부터 서빙로봇까지 다양한 분야의 로봇들이 입점되어 있어 그만큼 솔루션을 요청하는 곳도 다양하답니다. 최적의 솔루션을 드리기 위해 각
+                                분야의 로봇전문가분들과 함께 로봇 도입의 성공을 위해 달리고 있어요.🏃
+                            <br/>Amid escalating tensions with Taiwan in recent years, China has previously
+                                banned imports of some Taiwanese products. Last year, China banned imports of
+                                pineapples from the island followed by some types of apples, citing “pest
+                                control.” Earlier this year, it also banned Taiwanese grouper fish, citing
+                                detection of some banned drugs and excessive antibiotics. Beijing's recent
+                                announcements coincide with Pelosi’s visit to Taiwan, the first trip to the
+                                self-ruled island by a sitting speaker in 25 years, and after Beijing issued
+                                stern warnings that it would take countermeasures in retaliation.
+                        </p>
+                        <p className='body-14'>
+                            <span>소본문강조</span>
+                            14px 1.5 Bold
+                        </p>
+                        <p className='body-14'>
+                            <span>출처</span>
+                            14px 1.5 Medium
+                        </p>
+                        <p className='body-14'>
+                            <span>소본문</span>
+                            14px 1.5 Regular
+                        </p>
+                        <p className='body-12'>
+                            <span>[썸네일] 업체명</span>
+                            12px 1.5 Bold
+                        </p>
+                        <p className='body-12'>
+                            <span >업로드일, 조회수, 좋아요수 &amp; [텍스트필드] 안내문구</span>
+                            12px 1.5 Medium
+                        </p>
+                        <p className='body-12'>
+                            <span>[썸네일] 금액, 기업, 지역</span>
+                            12px 1.5 Regular
+                        </p>
+                        <p className='body-10'>
+                            <span>부가적인 설명 및 미니본문</span>
+                            10px 1.5 Regular
+                        </p>
+                        <div>
+                            <p
+                                style={{
+                                    fontSize: '24px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: '#ffffff',
+                                    color: 'var(--MC)'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+                            <p
+                                style={{
+                                    fontSize: '24px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: '#272727',
+                                    color: 'var(--MC)'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+                            <p
+                                style={{
+                                    fontSize: '24px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: 'var(--MC)',
+                                    color: '#ffffff'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+                        </div>
+                        <div>
+                            <p
+                                style={{
+                                    fontSize: '21px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: '#ffffff',
+                                    color: 'var(--MC)'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+                            <p
+                                style={{
+                                    fontSize: '21px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: '#272727',
+                                    color: 'var(--MC)'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+                            <p
+                                style={{
+                                    fontSize: '21px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: 'var(--MC)',
+                                    color: '#ffffff'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+                        </div>
+                        <div>
+                            <p
+                                style={{
+                                    fontSize: '16px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: '#ffffff',
+                                    color: 'var(--MC)'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+                            <p
+                                style={{
+                                    fontSize: '16px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: '#272727',
+                                    color: 'var(--MC)'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+                            <p
+                                style={{
+                                    fontSize: '16px',
+                                    display: 'inline-block',
+                                    margin: '8px 8px 0 0',
+                                    padding: '8px 16px',
+                                    border: '1px solid var(--MC)',
+                                    backgroundColor: 'var(--MC)',
+                                    color: '#ffffff'
+                                }}>
+                                가나다라마바사아자차카타파하</p>
+>>>>>>> Stashed changes
                         </div>
                     </div>
 
