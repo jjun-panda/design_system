@@ -1,3 +1,5 @@
+import styled from 'styled-components'
+
 const textStyles = StyleSheet.create({
   TITLE_TITLE_40_X: {
     fontFamily: "Pretendard",
@@ -23,7 +25,7 @@ const textStyles = StyleSheet.create({
     lineHeight: 30,
     letterSpacing: 0
   },
-  BODY_TEXT_B_24_X: {
+  BODY_TEXT_B_24_X: { 
     fontFamily: "Pretendard",
     fontSize: 24,
     fontWeight: "700",

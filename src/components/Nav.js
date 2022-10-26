@@ -17,7 +17,7 @@ function Nav() {
           <Link to="/brand"><li>Brand</li></Link>
           <Link to="/foundations"><li>Foundations</li></Link>
           <Link to="/components"><li>Components</li></Link>
-          <Link to="/content"><li>Content</li></Link>
+          <Link to="/contents"><li>Contents</li></Link>
           <Link to="/resources"><li>Resources</li></Link>
           {/* <li>
             <UserMenu />
