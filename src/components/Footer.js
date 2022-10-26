@@ -28,14 +28,14 @@ function Footer() {
           <li>주소 | 서울특별시 중구 청계천로 100 코드댓 </li>
         </ul> */}
         <div className={styles.info}>
-          <div className={classNames(styles.copy, 'body-12')}>ⓒ2022 Bigwave Robotics Inc. All Rights Reserved.</div>
+          <div className={classNames(styles.copy, 'body_12x')}>ⓒ2022 MAROSOL Robotics Inc. All Rights Reserved.</div>
           {/* <img src={logo} alt="codethat" /> */}
           {/* <div className={styles.sns}>
             <img src={facebookIcon} alt="facebook icon" />
             <img src={twitterIcon} alt="twitter icon" />
             <img src={instagramIcon} alt="instagram icon" />
           </div> */}
-          <div className={classNames(styles.version, 'body-12')}>
+          <div className={classNames(styles.version, 'body_12x')}>
             Version 1.0.0
           </div>
         </div>

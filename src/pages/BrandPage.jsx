@@ -15,22 +15,19 @@ function BrandPage() {
                     {/* leftSide */}
                     <div className={styles.navigatorMain}>
                         <div className={styles.navigatorWrapper}>
-                            <p className={classNames(styles.naviTitle, 'title-20')}>Brand</p>
+                            <p className={classNames(styles.naviTitle, 'title_20x')}>Brand</p>
                             <ul className={styles.navigator}>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Values</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Values</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Logos</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Logos</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Typeface</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>App icon</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Color</a>
-                                </li>
-                                <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Notation</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Application</a>
                                 </li>
                             </ul>
                         </div>
@@ -39,8 +36,8 @@ function BrandPage() {
                     {/* rightSide */}
                     <div className={classNames(styles.storyMain, 'w2')}>
                         <div className={styles.storyTitle}>
-                            <p className={classNames(styles.titleMain, 'title-40')}>Values</p>
-                            <p className={classNames(styles.titleSeb, 'body-16')}>BWR Creative는 디자인 전반을 구성하는 통합 가이드라인 입니다.</p>
+                            <p className={classNames(styles.titleMain, 'title_40x')}>Values</p>
+                            <p className={classNames(styles.titleSeb, 'body_16x')}>BWR Creative는 디자인 전반을 구성하는 통합 가이드라인 입니다.</p>
                         </div>
                         <Button size="exSmall">exSmall</Button>
                         <Button size="Small">Small</Button>

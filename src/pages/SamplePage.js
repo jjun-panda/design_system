@@ -33,28 +33,28 @@ function ComponentsPage() {
                             width: '160px',
                             height: '160px',
                             borderRadius: '20px',
-                            backgroundColor: 'var(--MC)'
+                            backgroundColor: 'var(--main-color)'
                         }}/>
                     <div
                         style={{
                             marginTop: '8px',
                             width: '160px',
                             boxSizing: 'border-box',
-                            border: '1px solid var(--MC)'
+                            border: '1px solid var(--main-color)'
                         }}/>
                     <div
                         style={{
                             marginTop: '8px',
                             width: '160px',
                             boxSizing: 'border-box',
-                            border: '2px solid var(--MC)'
+                            border: '2px solid var(--main-color)'
                         }}/>
                     <div
                         style={{
                             marginTop: '8px',
                             width: '160px',
                             boxSizing: 'border-box',
-                            border: '3px solid var(--MC)'
+                            border: '3px solid var(--main-color)'
                         }}/>
                 </div>
                 <div style={{
@@ -192,9 +192,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
+                                    border: '1px solid var(--main-color)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--MC)'
+                                    color: 'var(--main-color)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -203,9 +203,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
+                                    border: '1px solid var(--main-color)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--MC)'
+                                    color: 'var(--main-color)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -214,8 +214,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
-                                    backgroundColor: 'var(--MC)',
+                                    border: '1px solid var(--main-color)',
+                                    backgroundColor: 'var(--main-color)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -227,9 +227,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
+                                    border: '1px solid var(--main-color)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--MC)'
+                                    color: 'var(--main-color)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -238,9 +238,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
+                                    border: '1px solid var(--main-color)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--MC)'
+                                    color: 'var(--main-color)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -249,8 +249,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
-                                    backgroundColor: 'var(--MC)',
+                                    border: '1px solid var(--main-color)',
+                                    backgroundColor: 'var(--main-color)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -262,9 +262,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
+                                    border: '1px solid var(--main-color)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--MC)'
+                                    color: 'var(--main-color)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -273,9 +273,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
+                                    border: '1px solid var(--main-color)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--MC)'
+                                    color: 'var(--main-color)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -284,8 +284,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--MC)',
-                                    backgroundColor: 'var(--MC)',
+                                    border: '1px solid var(--main-color)',
+                                    backgroundColor: 'var(--main-color)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>

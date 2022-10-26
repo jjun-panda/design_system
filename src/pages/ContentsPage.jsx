@@ -15,19 +15,19 @@ function ContentsPage() {
                     {/* leftSide */}
                     <div className={styles.navigatorMain}>
                         <div className={styles.navigatorWrapper}>
-                            <p className={classNames(styles.naviTitle, 'title-20')}>Contents</p>
+                            <p className={classNames(styles.naviTitle, 'title_20x')}>Contents</p>
                             <ul className={styles.navigator}>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Thumbnail</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Thumbnail</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Banner</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Banner</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Header</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Header</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Footer</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Footer</a>
                                 </li>
                             </ul>
                         </div>
@@ -36,8 +36,8 @@ function ContentsPage() {
                     {/* rightSide */}
                     <div className={classNames(styles.storyMain, 'w2')}>
                         <div className={styles.storyTitle}>
-                            <p className={classNames(styles.titleMain, 'title-40')}>Values</p>
-                            <p className={classNames(styles.titleSeb, 'body-16')}>BWR Creative는 디자인 전반을 구성하는 통합 가이드라인 입니다.</p>
+                            <p className={classNames(styles.titleMain, 'title_40x')}>Values</p>
+                            <p className={classNames(styles.titleSeb, 'body_16x')}>BWR Creative는 디자인 전반을 구성하는 통합 가이드라인 입니다.</p>
                         </div>
                         <Button size="exSmall">exSmall</Button>
                         <Button size="Small">Small</Button>

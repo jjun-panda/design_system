@@ -1,5 +1,5 @@
 .topics {
-  margin: 120px auto 80px;
+    margin: 120px auto 80px;
 }
 
 .side {
@@ -28,8 +28,7 @@
 .navigator {
     flex-direction: column;
     padding: 0;
-    margin: 0;
-    margin-top: 32px;
+    margin: 32px 0 0;
     height: 100%;
     gap: 4px;
     display: flex;
@@ -42,10 +41,12 @@
     display: flex;
     align-items: center;
     padding: 0 16px;
+    border-radius: 4px;
 }
 
-.menuWrapper:first {
-    background-color: var(--gray-50);
+.menuWrapper:active,
+.menuWrapper:hover {
+    background-color: var(--gray-100);
 }
 
 .menu {
@@ -78,5 +79,3 @@ img {
         display: block;
     }
 }
-
-

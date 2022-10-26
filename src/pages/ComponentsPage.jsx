@@ -15,43 +15,43 @@ function ComponentsPage() {
                     {/* leftSide */}
                     <div className={styles.navigatorMain}>
                         <div className={styles.navigatorWrapper}>
-                            <p className={classNames(styles.naviTitle, 'title-20')}>Components</p>
+                            <p className={classNames(styles.naviTitle, 'title_20x')}>Components</p>
                             <ul className={styles.navigator}>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Button</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Button</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Text field</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Text field</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Selection control</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Selection control</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Tab</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Tab</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Badge & Tag</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Badge & Tag</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Tooltip</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Tooltip</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Action sheets</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Action sheets</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Navigation</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Navigation</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Modals</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Modals</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Loading</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Loading</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Carousel</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Carousel</a>
                                 </li>
                                 <li className={styles.menuWrapper}>
-                                    <a className={classNames(styles.menu, 'body-16')}>Toast</a>
+                                    <a className={classNames(styles.menu, 'body_16x')}>Toast</a>
                                 </li>
                             </ul>
                         </div>
@@ -60,8 +60,8 @@ function ComponentsPage() {
                     {/* rightSide */}
                     <div className={classNames(styles.storyMain, 'w2')}>
                         <div className={styles.storyTitle}>
-                            <p className={classNames(styles.titleMain, 'title-40')}>Values</p>
-                            <p className={classNames(styles.titleSeb, 'body-16')}>BWR Creative는 디자인 전반을 구성하는 통합 가이드라인 입니다.</p>
+                            <p className={classNames(styles.titleMain, 'title_40x')}>Values</p>
+                            <p className={classNames(styles.titleSeb, 'body_16x')}>BWR Creative는 디자인 전반을 구성하는 통합 가이드라인 입니다.</p>
                         </div>
                         <Button size="exSmall">exSmall</Button>
                         <Button size="Small">Small</Button>

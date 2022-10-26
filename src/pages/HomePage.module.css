@@ -47,12 +47,12 @@
 
 .boxs .box_one {
     width: 100%;
-    background-color: var(--MC);
+    background-color: var(--main-color);
     height: 600px;
 }
 .boxs .box_two {
     width: calc(50%);
-    background-color: var(--MC);
+    background-color: var(--main-color);
 }
 
 /* video */

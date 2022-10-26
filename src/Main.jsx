@@ -6,6 +6,7 @@ import BrandPage from './pages/BrandPage';
 import FoundationsPage from './pages/FoundationsPage';
 import ComponentsPage from './pages/ComponentsPage';
 import ContentsPage from './pages/ContentsPage'
+import ResourcesPage from './pages/ResourcesPage'
 import WishlistPage from './pages/WishlistPage';
 import ScrollTop from './components/ScrollTop';
 
@@ -21,6 +22,7 @@ function Main() {
                     <Route path="foundations" element={<FoundationsPage />}/>
                     <Route path="components" element={<ComponentsPage />}/>
                     <Route path='contents' element={<ContentsPage />}/>
+                    <Route path='resources' element={<ResourcesPage />}/>
                     <Route path="wishlist" element={<WishlistPage />}/>
                 </Routes>
             </App>
