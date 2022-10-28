@@ -28,7 +28,7 @@ function Footer() {
           <li>주소 | 서울특별시 중구 청계천로 100 코드댓 </li>
         </ul> */}
         <div className={styles.info}>
-          <div className={classNames(styles.copy, 'body_12x')}>ⓒ2022 MAROSOL Robotics Inc. All Rights Reserved.</div>
+          <div className={classNames(styles.copy, 'body_12x')}>ⓒ2022 JJUN Robotics Inc. All Rights Reserved.</div>
           {/* <img src={logo} alt="codethat" /> */}
           {/* <div className={styles.sns}>
             <img src={facebookIcon} alt="facebook icon" />

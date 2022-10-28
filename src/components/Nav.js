@@ -12,7 +12,7 @@ function Nav() {
       <Container>
         <Grid className={styles.container}>
         {/* <img src={logoImg} alt="Codethat Logo" /> */}
-        <Link to="/"><div className={classNames(styles.logo, 'title_24x')}>MAROSOL Creative</div></Link>
+        <Link to="/"><div className={classNames(styles.logo, 'title_24x')}>JJUN Creative</div></Link>
         <ul className={styles.menu}>
           <Link to="/brand"><li>Brand</li></Link>
           <Link to="/foundations"><li>Foundations</li></Link>

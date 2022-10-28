@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 import Button from '../components/Button';
 import Container from '../components/Container';
 import Card from '../components/Card';
-import styles from './ComponentsPage.module.css';
+import styles from './SamplePage.module.css';
 import classNames from 'classnames';
 import Grid from '../components/Grid';
 
@@ -363,7 +363,7 @@ function ComponentsPage() {
                     style={{
                         display: 'table',
                         padding: '20px 0 0'
-                    }}>
+                    }}> 
                     <button className={classNames(styles.btntype100c09f, 'basic')}>버튼L 16px H56</button>
                     <button
                         className={classNames(styles.btntype100c09f, 'basic')}
@@ -382,6 +382,11 @@ function ComponentsPage() {
                         display: 'table',
                         padding: '20px 0 0'
                     }}>
+
+                        <Button size="exSmall">exSmall</Button>
+                        <Button size="Small">Small</Button>
+                        <Button size="Medium">Medium</Button>
+                        <Button size="Large">Large</Button>
                     <button className={classNames(styles.btntype200c09f, 'basic')}>버튼L 16px H56</button>
                     <button
                         className={classNames(styles.btntype200c09f, 'basic')}

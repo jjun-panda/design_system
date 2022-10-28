@@ -29,7 +29,7 @@ function HomePage() {
                     일관되고 지속적인 경험을 디자인하기 위한 단 하나의 시스템
                 </h1>
                 <p className={classNames(styles.description, 'body_24x')}>
-                    MAROSOL Creative는 디자인 전반을 구성하는 통합 가이드라인 입니다.
+                    JJUN Creative는 디자인 전반을 구성하는 통합 가이드라인 입니다.
                 </p>
             </div>
         </Container>

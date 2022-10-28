@@ -9,6 +9,7 @@ import ContentsPage from './pages/ContentsPage'
 import ResourcesPage from './pages/ResourcesPage'
 import WishlistPage from './pages/WishlistPage';
 import ScrollTop from './components/ScrollTop';
+import SamplePage from './pages/SamplePage';
 
 function Main() {
     return (
@@ -23,6 +24,7 @@ function Main() {
                     <Route path="components" element={<ComponentsPage />}/>
                     <Route path='contents' element={<ContentsPage />}/>
                     <Route path='resources' element={<ResourcesPage />}/>
+                    <Route path='sample' element={<SamplePage />}/>
                     <Route path="wishlist" element={<WishlistPage />}/>
                 </Routes>
             </App>

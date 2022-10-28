@@ -23,8 +23,8 @@
 
     /* gray color */
     --black: #1e1e1e;
-    --gray-800: #343434;
     --gray-900: #272727;
+    --gray-800: #343434;
     --gray-700: #494949;
     --gray-600: #626262;
     --gray-500: #828282;
@@ -36,7 +36,7 @@
     --white: #ffffff;
     --white-50: #ffffff80;
 
-    /* fillter color */
+    /* filter color */
     --filter-40: #0006;
     --filter-60: #0009;
     --carousel: #00000019;
