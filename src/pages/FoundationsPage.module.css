@@ -73,23 +73,29 @@
 
 .callout {
     padding: 16px;
-    background-color: var(--gray-100);
+    /* background-color: var(--gray-100); */
+    background-color: var(--main-color-sec);
     border-radius: 8px;
 }
 
 .textMain {
-    background-image: linear-gradient(120deg, var(--main-color) 0%, var(--seb-color) 100%);
+    /* background-image: linear-gradient(120deg, var(--main-color) 0%, var(--seb-color) 100%);
     background-repeat: no-repeat;
     background-size: 100% 8px;
     background-position: 0 108%;
-    transition: background-size 0.25s ease-in;
+    transition: background-size 0.25s ease-in; */
     padding-bottom: 4px;
     display: inline-block;
     margin-bottom: 16px;
 }
+.textBody{
+}
 
 .textSeb {
+    margin-top: 40px;
+    padding-bottom: 8px;
 }
+
 img {
     width: 100%;
 }

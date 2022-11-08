@@ -5,7 +5,8 @@ import Card from '../components/Card';
 import styles from './FoundationsPage.module.css';
 import classNames from 'classnames';
 import Grid from '../components/Grid';
-import myImg from '../assets/b_book_2016.jpeg';
+import mainColor from '../assets/Main Color.png';
+import SebColor from '../assets/Seb Color.png';
 
 function FoundationsPage() {
     return (
@@ -50,9 +51,14 @@ function FoundationsPage() {
                         </div>
                         <div>
                             <p className={classNames(styles.textMain, 'title_24x')}>01. Brand Colors</p>
-                            <p className={classNames(styles.textSeb, 'body_16x')}>마로솔은 `Brand Main Color`의 `Primary` 색상을 브랜드 컬러 메인으로 사용합니다. <br></br>컨텐츠의 위계 구조에 따라 `Secondary` 컬러를 부가적으로 사용할 수 있습니다. 마로솔 디자인 시스템의 브랜드 컬러는 서비스에 맞게 색상 변경이 가능하며, 각 색상은 `Brand Sub Color`와 대응되어 아이콘, 컴포넌트 등의 요소에 사용됩니다.</p>
+                            <p className={classNames(styles.textBody, 'body_16x')}>마로솔은 `Brand Main Color`의 `Primary` 색상을 브랜드 컬러 메인으로 사용합니다. <br></br>컨텐츠의 위계 구조에 따라 `Secondary` 컬러를 부가적으로 사용할 수 있습니다. 마로솔 디자인 시스템의 브랜드 컬러는 서비스에 맞게 색상 변경이 가능하며, 각 색상은 `Brand Sub Color`와 대응되어 아이콘, 컴포넌트 등의 요소에 사용됩니다.</p>
+                            
+                            <p className={classNames(styles.textSeb, 'title_20x')}>Main Color</p>
+                            <img src={mainColor} alt="샘플이미지" />
+                            
+                            <p className={classNames(styles.textSeb, 'title_20x')}>Seb Color</p>
+                            <img src={SebColor} alt="샘플이미지" />
                         </div>
-
                     </div>
                 </div>
 
@@ -62,3 +68,6 @@ function FoundationsPage() {
 }
 
 export default FoundationsPage;
+
+
+
