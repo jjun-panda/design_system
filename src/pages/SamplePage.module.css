@@ -1,59 +1,57 @@
-
-
 .topics {
-    margin: 96px auto 80px;
+  margin: 96px auto 80px;
 }
 
 .mm {
-    display: none;
+  display: none;
 }
 
 .f24 {
-    background-color: var(--gray-900);
-    color: var(--white);
-    padding: 8px 16px;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 8px;
+  background-color: var(--gray-900);
+  color: var(--white);
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
 }
 
 .f24 > div {
-    font-size: 24px;
-    font-family: 'Pretendard';
-    font-weight: 400;
-    display: flex;
+  font-size: 24px;
+  font-family: "Pretendard";
+  font-weight: 400;
+  display: flex;
 }
 
 .web {
-    color: #ffe923;
+  color: #ffe923;
 }
 
 .web > .bad {
-    background-color: #ff2323;
-    color: var(--gray-900);
-    padding: 4px;
-    border-radius: 4px;
+  background-color: #ff2323;
+  color: var(--gray-900);
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .web > .notbad {
-    background-color: #ffa723;
-    color: var(--gray-900);
-    padding: 4px;
-    border-radius: 4px;
+  background-color: #ffa723;
+  color: var(--gray-900);
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .web > .good {
-    background-color: #2382ff;
-    color: var(--gray-900);
-    padding: 4px;
-    border-radius: 4px;
+  background-color: #2382ff;
+  color: var(--gray-900);
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .web > .best {
-    background-color: #23ff77;
-    color: var(--gray-900);
-    padding: 4px;
-    border-radius: 4px;
+  background-color: #23ff77;
+  color: var(--gray-900);
+  padding: 4px;
+  border-radius: 4px;
 }
 
 body,
@@ -61,465 +59,478 @@ div,
 html,
 p,
 span {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 label {
-    padding-right: 16px;
-    padding-top: 16px;
-    display: inline-block;
+  padding-right: 16px;
+  padding-top: 16px;
+  display: inline-block;
 }
 
 button {
-    margin-right: 16px;
-    margin-top: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
 }
 
 button:last-child {
-    margin: 16px 0 0;
+  margin: 16px 0 0;
 }
 
 .size {
-    max-width: 1200px;
-    margin: 80px auto;
+  max-width: 1200px;
+  margin: 80px auto;
 }
 
 .color_list {
-    margin-bottom: 160px;
+  margin-bottom: 160px;
 }
 
 .color_list .name {
-    padding-left: 8px;
-    margin: 32px 0;
-    /* border-top: 2px dotted var(--gray-300); */
+  padding-left: 8px;
+  margin: 32px 0;
+  /* border-top: 2px dotted var(--gray-300); */
 }
 
 /* 라디오버튼1 */
 .checkboxp00c09f {
-    display: none;
+  display: none;
 }
 
-.checkboxp00c09f+em {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    border: 2px solid var(--gray-200);
-    border-radius: 20px;
-    position: relative;
-    box-sizing: border-box;
+.checkboxp00c09f + em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--gray-200);
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
 }
 
-.checkboxp00c09f:checked+em {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    border: 0;
-    border-radius: 20px;
-    background-color: var(--main-color);
-    position: relative;
-    box-sizing: border-box;
+.checkboxp00c09f:checked + em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 20px;
+  background-color: var(--main-color);
+  position: relative;
+  box-sizing: border-box;
 }
 
-.checkboxp00c09f+em:before {
-    content: "";
-    position: absolute;
-    left: 6px;
-    right: 6px;
-    bottom: 6px;
-    top: 6px;
-    border-radius: 20px;
-    background: var(--white);
-    transform: scale(0.3);
-    opacity: 0;
-    transition: all 0.3s ease;
+.checkboxp00c09f + em:before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  top: 6px;
+  border-radius: 20px;
+  background: var(--white);
+  transform: scale(0.3);
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
-.checkboxp00c09f:checked+em:before {
-    transform: scale(1);
-    opacity: 1;
+.checkboxp00c09f:checked + em:before {
+  transform: scale(1);
+  opacity: 1;
 }
 
-.checkboxp00c09f+em+span {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 16px;
-    line-height: 20px;
-    color: var(--gray-900);
-    margin-left: 4px;
-    font-family: 'Pretendard';
-    font-weight: 500;
+.checkboxp00c09f + em + span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray-900);
+  margin-left: 4px;
+  font-family: "Pretendard";
+  font-weight: 500;
 }
 
 /* 라디오버튼2 */
 .checkboxp100c09f {
-    display: none;
+  display: none;
 }
 
-.checkboxp100c09f+em {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    border: 2px solid var(--gray-200);
-    border-radius: 20px;
-    position: relative;
-    box-sizing: border-box;
+.checkboxp100c09f + em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--gray-200);
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
 }
 
-.checkboxp100c09f:checked+em {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    border: 0;
-    border-radius: 20px;
-    background-color: var(--main-color);
-    position: relative;
-    box-sizing: border-box;
+.checkboxp100c09f:checked + em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 20px;
+  background-color: var(--main-color);
+  position: relative;
+  box-sizing: border-box;
 }
 
-.checkboxp100c09f+em:before {
-    content: "";
-    position: absolute;
-    left: 6px;
-    right: 6px;
-    bottom: 6px;
-    top: 6px;
-    border-radius: 20px;
-    background: var(--white);
-    transform: scale(0.3);
-    opacity: 0;
-    transition: all 0.3s ease;
+.checkboxp100c09f + em:before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  top: 6px;
+  border-radius: 20px;
+  background: var(--white);
+  transform: scale(0.3);
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
-.checkboxp100c09f:checked+em:before {
-    transform: scale(1);
-    opacity: 1;
+.checkboxp100c09f:checked + em:before {
+  transform: scale(1);
+  opacity: 1;
 }
 
-.checkboxp100c09f+em+span {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 14px;
-    line-height: 20px;
-    color: var(--gray-900);
-    margin-left: 4px;
-    font-family: 'Pretendard';
-    font-weight: 500;
+.checkboxp100c09f + em + span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--gray-900);
+  margin-left: 4px;
+  font-family: "Pretendard";
+  font-weight: 500;
 }
 
 /* 체크박스_1 */
 .checkbox100c09f {
-    display: none;
+  display: none;
 }
 
-.checkbox100c09f+em {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    border: 2px solid var(--gray-200);
-    position: relative;
-    background: var(--white);
-    cursor: pointer;
-    box-sizing: border-box;
+.checkbox100c09f + em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 2px solid var(--gray-200);
+  position: relative;
+  background: var(--white);
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
-.checkbox100c09f+em:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background: url("https://marosol-bucket-dev.s3.ap-northeast-2.amazonaws.com/0211color/checkbox_white.svg") no-repeat 50% 50%;
-    opacity: 0;
-    transition: all 0.3s ease;
-    transform: scale(0.2);
+.checkbox100c09f + em:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: url("https://marosol-bucket-dev.s3.ap-northeast-2.amazonaws.com/0211color/checkbox_white.svg")
+    no-repeat 50% 50%;
+  opacity: 0;
+  transition: all 0.3s ease;
+  transform: scale(0.2);
 }
 
-.checkbox100c09f+em+span {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 16px;
-    line-height: 20px;
-    color: var(--gray-900);
-    margin-left: 4px;
-    font-family: 'Pretendard';
-    font-weight: 500;
+.checkbox100c09f + em + span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray-900);
+  margin-left: 4px;
+  font-family: "Pretendard";
+  font-weight: 500;
 }
 
-.checkbox100c09f:checked+em {
-    background: var(--main-color);
-    border: var(--main-color);
+.checkbox100c09f:checked + em {
+  background: var(--main-color);
+  border: var(--main-color);
 }
 
-.checkbox100c09f:checked+em:before {
-    opacity: 1;
-    transform: scale(1);
+.checkbox100c09f:checked + em:before {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* 체크박스_2 */
 .checkbox200c09f {
-    display: none;
+  display: none;
 }
 
-.checkbox200c09f+em {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    border: 2px solid var(--gray-200);
-    position: relative;
-    background: var(--white);
-    cursor: pointer;
-    box-sizing: border-box;
+.checkbox200c09f + em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 2px solid var(--gray-200);
+  position: relative;
+  background: var(--white);
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
-.checkbox200c09f+em:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background: url("https://marosol-bucket-dev.s3.ap-northeast-2.amazonaws.com/0211color/checkbox_white.svg") no-repeat 50% 50%;
-    opacity: 0;
-    transition: all 0.3s ease;
-    transform: scale(0.2);
+.checkbox200c09f + em:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: url("https://marosol-bucket-dev.s3.ap-northeast-2.amazonaws.com/0211color/checkbox_white.svg")
+    no-repeat 50% 50%;
+  opacity: 0;
+  transition: all 0.3s ease;
+  transform: scale(0.2);
 }
 
-.checkbox200c09f+em+span {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 14px;
-    line-height: 18px;
-    color: var(--gray-900);
-    margin-left: 4px;
-    font-family: 'Pretendard';
-    font-weight: 500;
+.checkbox200c09f + em + span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--gray-900);
+  margin-left: 4px;
+  font-family: "Pretendard";
+  font-weight: 500;
 }
 
-.checkbox200c09f:checked+em {
-    background: var(--main-color);
-    border: var(--main-color);
+.checkbox200c09f:checked + em {
+  background: var(--main-color);
+  border: var(--main-color);
 }
 
-.checkbox200c09f:checked+em:before {
-    opacity: 1;
-    transform: scale(1);
+.checkbox200c09f:checked + em:before {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* toggle00c09f */
 .toggle00c09f {
-    display: none;
+  display: none;
 }
 
-.toggle00c09f+div span {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 16px;
-    line-height: 20px;
-    color: var(--gray-900);
-    margin-left: 4px;
-    font-family: 'Pretendard';
-    font-weight: 500;
+.toggle00c09f + div span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray-900);
+  margin-left: 4px;
+  font-family: "Pretendard";
+  font-weight: 500;
 }
 
-.toggle00c09f+div em {
-    display: inline-block;
-    vertical-align: middle;
-    width: 48px;
-    height: 16px;
-    /* border: 2px solid var(--gray-400); */
-    background-color: var(--gray-400);
-    position: relative;
-    border-radius: 50px;
-    transition: all 0.3s ease;
+.toggle00c09f + div em {
+  display: inline-block;
+  vertical-align: middle;
+  width: 48px;
+  height: 16px;
+  /* border: 2px solid var(--gray-400); */
+  background-color: var(--gray-400);
+  position: relative;
+  border-radius: 50px;
+  transition: all 0.3s ease;
 }
 
-.toggle00c09f+div em:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: -6px;
-    width: 24px;
-    display: inline-block;
-    height: 24px;
-    border-radius: 100%;
-    border: 2px solid var(--gray-400);
-    background: var(--white);
-    transition: all 0.5s ease;
+.toggle00c09f + div em:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -6px;
+  width: 24px;
+  display: inline-block;
+  height: 24px;
+  border-radius: 100%;
+  border: 2px solid var(--gray-400);
+  background: var(--white);
+  transition: all 0.5s ease;
 }
 
-.toggle00c09f:checked+div em {
-    border: none;
-    background-color: var(--main-color);
+.toggle00c09f:checked + div em {
+  border: none;
+  background-color: var(--main-color);
 }
 
-.toggle00c09f:checked+div em:before {
-    left: 24px;
-    background: var(--white);
-    border: 2px solid var(--main-color);
+.toggle00c09f:checked + div em:before {
+  left: 24px;
+  background: var(--white);
+  border: 2px solid var(--main-color);
 }
 
 /* Button */
 .btntype100c09f {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    background: var(--main-color);
-    color: var(--white);
-    font-family: 'Pretendard';
-    font-weight: 700;
-    border-radius: 4px;
-    border: 0;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background: var(--main-color);
+  color: var(--white);
+  font-family: "Pretendard";
+  font-weight: 700;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .btntype100c09f.basic {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 0 16px;
-    height: 56px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 16px;
+  height: 56px;
 }
 
 .btntype100c09f.Medium {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 0 16px;
-    height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 16px;
+  height: 48px;
 }
 
 .btntype100c09f.small {
-    font-size: 14px;
-    line-height: 16px;
-    padding: 0 16px;
-    height: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0 16px;
+  height: 40px;
 }
 
 .btntype100c09f:hover {
-    background: var(main-color-sec);
+  background: var(main-color-sec);
 }
 
 .btntype100c09f:active {
-    background: #E9F0FC;
-    color: var(--main-color);
+  background: #e9f0fc;
+  color: var(--main-color);
 }
 
 .btntype100c09f:disabled {
-    background: var(--gray-300);
-    color: var(--gray-200);
-    cursor: not-allowed;
+  background: var(--gray-300);
+  color: var(--gray-200);
+  cursor: not-allowed;
 }
 
 .btntype200c09f {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    background: var(--white);
-    color: var(--main-color);
-    font-family: 'Pretendard';
-    font-weight: 700;
-    border-radius: 4px;
-    border-color: var(--main-color);
-    border-inline: 1px solid var(--main-color);
-    border: 1px solid var(--main-color);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background: var(--white);
+  color: var(--main-color);
+  font-family: "Pretendard";
+  font-weight: 700;
+  border-radius: 4px;
+  border-color: var(--main-color);
+  border-inline: 1px solid var(--main-color);
+  border: 1px solid var(--main-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 
 .btntype200c09f.basic {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 0 16px;
-    height: 56px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 16px;
+  height: 56px;
 }
 
 .btntype200c09f.Medium {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 0 16px;
-    height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 16px;
+  height: 48px;
 }
 
 .btntype200c09f.small {
-    font-size: 14px;
-    line-height: 16px;
-    padding: 0 16px;
-    height: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0 16px;
+  height: 40px;
 }
 
 .btntype200c09f:hover {
-    background: var(main-color-sec);
-    color: var(--white);
-    border: 1px solid var(main-color-sec);
+  background: var(main-color-sec);
+  color: var(--white);
+  border: 1px solid var(main-color-sec);
 }
 
 .btntype200c09f:active {
-    background: #E9F0FC;
-    color: var(--main-color);
-    border: 1px solid #E9F0FC;
+  background: #e9f0fc;
+  color: var(--main-color);
+  border: 1px solid #e9f0fc;
 }
 
 .btntype200c09f:disabled {
-    background: var(--white);
-    color: var(--gray-300);
-    border: 1px solid var(--gray-300);
-    cursor: not-allowed;
+  background: var(--white);
+  color: var(--gray-300);
+  border: 1px solid var(--gray-300);
+  cursor: not-allowed;
 }
 
 .manulist {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .manulist ul {
-    max-width: 50%;
-    display: flex;
-    border-top: 1px solid var(--gray-200);
-    border-bottom: 1px solid var(--gray-200);
+  max-width: 50%;
+  display: flex;
+  border-top: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
 }
 
 .manulist ul li {
-    list-style: none;
-    align-items: center;
+  list-style: none;
+  align-items: center;
 }
 
 .manulist.w2 ul li {
-    width: calc(100% / 4);
+  width: calc(100% / 4);
 }
 
 .manulist ul li a {
-    display: block;
-    text-align: center;
-    padding: 12px;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    color: var(--gray-700);
-    text-decoration-line: none;
+  display: block;
+  text-align: center;
+  padding: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--gray-700);
+  text-decoration-line: none;
 }
 
 .manulist ul li:hover {
-    background-color: #e0f5ee;
-    transition: all 0.3s;
+  background-color: #e0f5ee;
+  transition: all 0.3s;
 }
 
 .manulist ul li a.check {
-    color: var(--white);
-    background-color: var(--main-color);
-    font-weight: 600;
+  color: var(--white);
+  background-color: var(--main-color);
+  font-weight: 600;
 }
 
-@media all and (max-width: 800px) {
-    .mm {
-        display: block;
-    }
+/* Tablet(세로) (해상도 768px ~ 1023px)*/
+@media all and (max-width: 1023px) {
+  /*스타일입력*/
+}
+
+/* Moblie(가로) (해상도 480px ~ 767px)*/
+@media all and (max-width: 767px) {
+  .mm {
+    display: block;
+  }
+}
+
+/* Moblie(세로) (해상도 ~ 479px)*/
+@media all and (max-width: 479px) {
+  /*스타일입력*/
 }
