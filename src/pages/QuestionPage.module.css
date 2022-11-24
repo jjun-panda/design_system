@@ -6,7 +6,7 @@
 
 .count {
   margin: 0 0 22px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   color: #878787;
 }
@@ -33,7 +33,7 @@
 
 .questionInfo .title {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   color: #494949;
 }
@@ -44,7 +44,7 @@
 }
 
 .questionInfo .date {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   color: #c4c4c4;
 }
@@ -73,13 +73,13 @@
 
 .writer .name {
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   color: #494949;
 }
 
 .writer .level {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   color: #c4c4c4;
 }
@@ -93,7 +93,7 @@
 
 .answerInfo .date {
   align-self: flex-end;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   color: #c4c4c4;
 }

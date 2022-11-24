@@ -1,9 +1,9 @@
-import Nav from '../components/Nav';
-import Footer from '../components/Footer';
-import styles from './App.module.css';
-import './App.font.css';
-import './App.color.css';
-import './App.reset.css';
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+import styles from "./App.module.css";
+import "./webFont.css";
+import "./webColor.css";
+import "./webReset.css";
 
 function App({ children }) {
   return (

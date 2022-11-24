@@ -1,268 +1,274 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const textStyles = StyleSheet.create({
-  TITLE_TITLE_40_X: {
+  title40: {
     fontFamily: "Pretendard",
     fontSize: 40,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 50,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TITLE_TITLE_32_X: {
+  title32: {
     fontFamily: "Pretendard",
     fontSize: 32,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 40,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TITLE_TITLE_24_X: {
+  title24: {
     fontFamily: "Pretendard",
     fontSize: 24,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 30,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_B_24_X: { 
+  textB24: {
     fontFamily: "Pretendard",
     fontSize: 24,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 38.4,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_24_X: {
+  text24: {
     fontFamily: "Pretendard",
     fontSize: 24,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 38.4,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TITLE_TITLE_20_X: {
+  title20: {
     fontFamily: "Pretendard",
     fontSize: 20,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 25,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_B_20_X: {
+  textB20: {
     fontFamily: "Pretendard",
     fontSize: 20,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 32,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_20_X: {
+  text20: {
     fontFamily: "Pretendard",
     fontSize: 20,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 32,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TITLE_TITLE_18_X: {
+  title18: {
     fontFamily: "Pretendard",
     fontSize: 18,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 22.5,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_B_18_X: {
+  textB18: {
     fontFamily: "Pretendard",
     fontSize: 18,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 28.8,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_18_X: {
+  text18: {
     fontFamily: "Pretendard",
     fontSize: 18,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 28.8,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TITLE_TITLE_16_X: {
+  title16: {
     fontFamily: "Pretendard",
     fontSize: 16,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 20,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  FIELDS_TEXT_FIELDS_B_16_X: {
-    fontFamily: "Pretendard",
-    fontSize: 16,
-    fontWeight: "700",
-    fontStyle: "normal",
-    lineHeight: 16,
-    letterSpacing: 0
-  },
-  BUTTON_BOTTON_16_X: {
+  botton16: {
     fontFamily: "Pretendard",
     fontSize: 16,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 24,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_B_16_X: {
+  textB16: {
     fontFamily: "Pretendard",
     fontSize: 16,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 25.6,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_CHECKBOX_16_X: {
+  checkbox16: {
     fontFamily: "Pretendard",
     fontSize: 16,
     fontWeight: "500",
     fontStyle: "normal",
     lineHeight: 16,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  FIELDS_TEXT_FIELDS_16_X: {
-    fontFamily: "Pretendard",
-    fontSize: 16,
-    fontWeight: "400",
-    fontStyle: "normal",
-    lineHeight: 16,
-    letterSpacing: 0
-  },
-  BODY_TEXT_16_X_STORY: {
+  text16_STORY: {
     fontFamily: "Pretendard",
     fontSize: 16,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 28,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_16_X: {
+  text16: {
     fontFamily: "Pretendard",
     fontSize: 16,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 25.6,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TITLE_TITLE_14_X: {
+  title14: {
     fontFamily: "Pretendard",
     fontSize: 14,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 17.5,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BUTTON_BUTTON_14_X: {
+  BUTTON_BUTTON_14: {
     fontFamily: "Pretendard",
     fontSize: 14,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 21,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_B_14_X: {
+  textB14: {
     fontFamily: "Pretendard",
     fontSize: 14,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 22.4,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TAG_TAG_14_X: {
+  tag14: {
     fontFamily: "Pretendard",
     fontSize: 14,
     fontWeight: "500",
     fontStyle: "normal",
     lineHeight: 17.5,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_CHECKBOX_14_X: {
+  checkbox14: {
     fontFamily: "Pretendard",
     fontSize: 14,
     fontWeight: "500",
     fontStyle: "normal",
     lineHeight: 14,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_14_X: {
+  text14: {
     fontFamily: "Pretendard",
     fontSize: 14,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 22.4,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_B_12_X: {
+  textB12: {
     fontFamily: "Pretendard",
     fontSize: 12,
     fontWeight: "700",
     fontStyle: "normal",
     lineHeight: 19.2,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TAG_TAG_12_X: {
-    fontFamily: "Pretendard",
-    fontSize: 12,
-    fontWeight: "500",
-    fontStyle: "normal",
-    lineHeight: 15,
-    letterSpacing: 0
-  },
-  BODY_CAPTION: {
-    fontFamily: "Pretendard",
-    fontSize: 12,
-    fontWeight: "500",
-    fontStyle: "normal",
-    lineHeight: 15,
-    letterSpacing: 0
-  },
-  FIELDS_TEXT_FIELDS_12_X: {
-    fontFamily: "Pretendard",
-    fontSize: 12,
-    fontWeight: "400",
-    fontStyle: "normal",
-    lineHeight: 12,
-    letterSpacing: 0
-  },
-  BODY_TEXT_12_X_DISCOUNTED_PRICE: {
+  text12: {
     fontFamily: "Pretendard",
     fontSize: 12,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 19.2,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  BODY_TEXT_12_X: {
+  text12_discountedPrice: {
     fontFamily: "Pretendard",
     fontSize: 12,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 19.2,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  TAG_TAG_10_X: {
+
+  // caption
+  caption: {
+    fontFamily: "Pretendard",
+    fontSize: 12,
+    fontWeight: "500",
+    fontStyle: "normal",
+    lineHeight: 15,
+    letterSpacing: 0,
+  },
+
+  // tag
+  tag12: {
+    fontFamily: "Pretendard",
+    fontSize: 12,
+    fontWeight: "500",
+    fontStyle: "normal",
+    lineHeight: 15,
+    letterSpacing: 0,
+  },
+  tag10: {
     fontFamily: "Pretendard",
     fontSize: 10,
     fontWeight: "500",
     fontStyle: "normal",
     lineHeight: 12.5,
-    letterSpacing: 0
+    letterSpacing: 0,
   },
-  FIELDS_TEXT_FIELDS_10_X: {
+
+  // fields
+  fieldsB16: {
+    fontFamily: "Pretendard",
+    fontSize: 16,
+    fontWeight: "700",
+    fontStyle: "normal",
+    lineHeight: 16,
+    letterSpacing: 0,
+  },
+  fields16: {
+    fontFamily: "Pretendard",
+    fontSize: 16,
+    fontWeight: "400",
+    fontStyle: "normal",
+    lineHeight: 16,
+    letterSpacing: 0,
+  },
+  fields12: {
+    fontFamily: "Pretendard",
+    fontSize: 12,
+    fontWeight: "400",
+    fontStyle: "normal",
+    lineHeight: 12,
+    letterSpacing: 0,
+  },
+  fields10: {
     fontFamily: "Pretendard",
     fontSize: 10,
     fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 10,
-    letterSpacing: 0
-  }
+    letterSpacing: 0,
+  },
 });

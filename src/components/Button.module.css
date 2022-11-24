@@ -1,35 +1,35 @@
 .button {
-    padding: 0 16px;
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--White);
-    cursor: pointer;
-    background-color: var(--main-color);
-    border: none;
-    border-radius: 4px;
-    outline: none;
-    height: 54px;
-    min-width: 120px;
-    transition: all 0.3s ease;
+  padding: 0 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--White);
+  cursor: pointer;
+  background-color: var(--main);
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  height: 54px;
+  min-width: 120px;
+  transition: all 0.3s ease;
 }
 
 div.button {
-    display: inline-block;
+  display: inline-block;
 }
 
 Button.exSmall {
-    font-size: 12px;
-    height: 32px;
+  font-size: 0.75rem;
+  height: 32px;
 }
 Button.Small {
-    font-size: 14px;
-    height: 40px;
+  font-size: 0.875rem;
+  height: 40px;
 }
 Button.Medium {
-    font-size: 16px;
-    height: 48px;
+  font-size: 1rem;
+  height: 48px;
 }
 Button.Large {
-    font-size: 16px;
-    height: 56px;
+  font-size: 1rem;
+  height: 56px;
 }

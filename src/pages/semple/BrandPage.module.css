@@ -19,7 +19,7 @@
 .header .summary {
   padding: 11px 68px;
   margin: 20px 0 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #878787;
   background-color: #f9f9f9;
   border: solid 2px #f4f4f4;
@@ -40,14 +40,14 @@
 
 .topic .title {
   margin: 0 auto 10px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   color: #545454;
 }
 
 .topic .summary {
   margin: 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   color: #878787;
 }

@@ -1,6 +1,6 @@
-import classNames from 'classnames';
-import styles from './Button.module.css';
-import styled from 'styled-components'
+import classNames from "classnames";
+import styles from "./Button.module.css";
+import styled from "styled-components";
 
 // function Button({ variant, className, as, ...restProps }) {
 //   if (as === 'div') {
@@ -42,22 +42,22 @@ const HEIGHTSIZES = {
 };
 
 const Button = styled.button`
-  background-color: var(--main-color);
+  background-color: var(--main);
   border: none;
-  border-radius: ${({ round }) => round ? `9999px` : `4px`};
+  border-radius: ${({ round }) => (round ? `9999px` : `4px`)};
   color: var(--white);
-  font-size: ${({ size }) => SIZES[size] ?? SIZES['Small']}px;
+  font-size: ${({ size }) => SIZES[size] ?? SIZES["Small"]}px;
   font-weight: 600;
   cursor: pointer;
   padding: 0 16px;
-  height: ${({ size }) => HEIGHTSIZES[size] ?? HEIGHTSIZES['Small']}px;
+  height: ${({ size }) => HEIGHTSIZES[size] ?? HEIGHTSIZES["Small"]}px;
   min-width: 120px;
   max-width: 400px;
   transition: all 0.3s ease;
 
   &:hover,
   &:active {
-    background-color: var(--seb-color);
+    background-color: var(--seb);
   }
 `;
 
