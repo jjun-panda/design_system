@@ -149,3 +149,13 @@ pre {
 code {
   color: var(--gray400);
 }
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    display: block;
+  }
+}

@@ -6,6 +6,7 @@ import landingImg from "../assets/landing.svg";
 import classNames from "classnames";
 import pcVideo from "../assets/PC_video.mp4";
 import mVideo from "../assets/Mobile_video.mp4";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -18,7 +19,7 @@ function HomePage() {
           </video>
         </div>
         <div className={styles.mobile_video}>
-          <video muted autoPlay loopid="main_video_01">
+          <video muted autoPlay loop id="main_video_01">
             <source src={mVideo} type="video/mp4" />
           </video>
         </div>
@@ -36,17 +37,38 @@ function HomePage() {
       <div className={styles.boxs}>
         <div className={styles.box_bran}>
           <div className={styles.box_one}>
-            <div className={styles.content}>내부 컨텐츠</div>
+            <div className={styles.content}>
+              <Link to="/brand">test</Link>
+            </div>
           </div>
         </div>
       </div>
       <div className={styles.boxs}>
-        <div className={styles.box_two}>
-          <div className={styles.content}>내부 컨텐츠</div>
-        </div>
-        <div className={styles.box_two}>
-          <div className={styles.content}>내부 컨텐츠</div>
-        </div>
+        <Link to="/brand">
+          <div className={styles.box_two}>
+            <div className={styles.content}>Brand</div>
+          </div>
+        </Link>
+        <Link to="/Foundations">
+          <div className={styles.box_two}>
+            <div className={styles.content}>Foundations</div>
+          </div>
+        </Link>
+        <Link to="/Components">
+          <div className={styles.box_two}>
+            <div className={styles.content}>Components</div>
+          </div>
+        </Link>
+        <Link to="/Contents">
+          <div className={styles.box_two}>
+            <div className={styles.content}>Contents</div>
+          </div>
+        </Link>
+        <Link to="/Resources">
+          <div className={styles.box_two}>
+            <div className={styles.content}>Resources</div>
+          </div>
+        </Link>
       </div>
     </>
   );

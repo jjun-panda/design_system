@@ -9,6 +9,7 @@ function App({ children }) {
   return (
     <>
       <Nav className={styles.nav} />
+      {/* <NavMobile className={styles.NavMobile} /> */}
       <div className={styles.body}>{children}</div>
       <Footer className={styles.footer} />
     </>

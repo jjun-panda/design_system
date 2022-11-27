@@ -54,45 +54,50 @@ function Main() {
         <Routes>
           <Route path="/" element={<HomePage />} />
 
-          <Route path="brand" element={<BrandPage />} />
-          <Route path="brand/values" element={<BrandValues />} />
-          <Route path="brand/logo" element={<BrandLogo />} />
-          <Route path="brand/appicon" element={<BrandAppIcon />} />
-          <Route path="brand/application" element={<BrandApplication />} />
+          <Route path="brand" element={<BrandPage />}>
+            <Route path="values" element={<BrandValues />} />
+            <Route path="logo" element={<BrandLogo />} />
+            <Route path="appicon" element={<BrandAppIcon />} />
+            <Route path="application" element={<BrandApplication />} />
+          </Route>
 
-          <Route path="foundations" element={<FoundationsPage />} />
-          <Route path="foundations/color" element={<FoundationsColor />} />
-          <Route path="foundations/typorgaphy" element={<FoundationsTyporgaphy />} />
-          <Route path="foundations/icon" element={<FoundationsIcon />} />
-          <Route path="foundations/grid" element={<FoundationsGrid />} />
-          <Route path="foundations/radius" element={<FoundationsRadius />} />
-          <Route path="foundations/shadow" element={<FoundationsShadow />} />
-          <Route path="foundations/border" element={<FoundationsBorder />} />
+          <Route path="foundations" element={<FoundationsPage />}>
+            <Route path="color" element={<FoundationsColor />} />
+            <Route path="typorgaphy" element={<FoundationsTyporgaphy />} />
+            <Route path="icon" element={<FoundationsIcon />} />
+            <Route path="grid" element={<FoundationsGrid />} />
+            <Route path="radius" element={<FoundationsRadius />} />
+            <Route path="shadow" element={<FoundationsShadow />} />
+            <Route path="border" element={<FoundationsBorder />} />
+          </Route>
 
-          <Route path="components" element={<ComponentsPage />} />
-          <Route path="components/button" element={<ComponentsButton />} />
-          <Route path="components/text-field" element={<ComponentsTextField />} />
-          <Route path="components/selection-control" element={<ComponentsSelectionControl />} />
-          <Route path="components/tab" element={<ComponentsTab />} />
-          <Route path="components/badge-tag" element={<ComponentsBadgeTag />} />
-          <Route path="components/tooltip" element={<ComponentsTooltip />} />
-          <Route path="components/action-sheets" element={<ComponentsActionSheets />} />
-          <Route path="components/navigation" element={<ComponentsNavigation />} />
-          <Route path="components/modals" element={<ComponentsModals />} />
-          <Route path="components/loading" element={<ComponentsLoading />} />
-          <Route path="components/carousel" element={<ComponentsCarousel />} />
-          <Route path="components/toast" element={<ComponentsToast />} />
+          <Route path="components" element={<ComponentsPage />}>
+            <Route path="button" element={<ComponentsButton />} />
+            <Route path="text-field" element={<ComponentsTextField />} />
+            <Route path="selection-control" element={<ComponentsSelectionControl />} />
+            <Route path="tab" element={<ComponentsTab />} />
+            <Route path="badge-tag" element={<ComponentsBadgeTag />} />
+            <Route path="tooltip" element={<ComponentsTooltip />} />
+            <Route path="action-sheets" element={<ComponentsActionSheets />} />
+            <Route path="navigation" element={<ComponentsNavigation />} />
+            <Route path="modals" element={<ComponentsModals />} />
+            <Route path="loading" element={<ComponentsLoading />} />
+            <Route path="carousel" element={<ComponentsCarousel />} />
+            <Route path="toast" element={<ComponentsToast />} />
+          </Route>
 
-          <Route path="contents" element={<ContentsPage />} />
-          <Route path="contents/thumbnail" element={<ContentThumbnail />} />
-          <Route path="contents/banner" element={<ContentBanner />} />
-          <Route path="contents/header" element={<ContentHeader />} />
-          <Route path="contents/footer" element={<ContentFooter />} />
+          <Route path="contents" element={<ContentsPage />}>
+            <Route path="thumbnail" element={<ContentThumbnail />} />
+            <Route path="banner" element={<ContentBanner />} />
+            <Route path="header" element={<ContentHeader />} />
+            <Route path="footer" element={<ContentFooter />} />
+          </Route>
 
-          <Route path="resources" element={<ResourcesPage />} />
-          <Route path="resources/design-story" element={<ResourcesDesignStory />} />
-          <Route path="resources/bx-guidelines" element={<ResourcesBXguidelines />} />
-          <Route path="resources/uxui-guidelines" element={<ResourcesUXUIguidelines />} />
+          <Route path="resources" element={<ResourcesPage />}>
+            <Route path="design-story" element={<ResourcesDesignStory />} />
+            <Route path="bx-guidelines" element={<ResourcesBXguidelines />} />
+            <Route path="uxui-guidelines" element={<ResourcesUXUIguidelines />} />
+          </Route>
 
           <Route path="sample" element={<SamplePage />} />
           <Route path="wishlist" element={<WishlistPage />} />

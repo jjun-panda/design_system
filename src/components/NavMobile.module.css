@@ -1,0 +1,77 @@
+.menuSize {
+  width: 44px;
+  height: 44px;
+  z-index: 99999999;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#checkBox {
+  display: none;
+}
+
+#checkBox + label {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 99999;
+  padding: 0;
+}
+
+#checkBox + label > span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: var(--gray900);
+  transition: all 200ms;
+}
+#check_box:checked + label > span:nth-child(1) {
+  top: calc(50% - 2px);
+  transform: rotate(45deg);
+}
+
+#checkBox + label > span:nth-child(2) {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#check_box:checked + label > span:nth-child(2) {
+  opacity: 0;
+}
+
+#checkBox + label > span:nth-child(3) {
+  bottom: 0;
+}
+
+#check_box:checked + label > span:nth-child(3) {
+  bottom: calc(50% - 2px);
+  transform: rotate(-45deg);
+}
+#check_box:checked {
+}
+#sideMenu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main);
+  right: -100%;
+  transition: all 300ms;
+  z-index: 1;
+  top: 0px;
+  padding: 60px 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+#check_box:checked + label + #sideMenu {
+  right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .menuSize {
+    display: flex;
+  }
+}

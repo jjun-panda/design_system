@@ -15,37 +15,37 @@ function ComponentsTooltip() {
               <p className={classNames(styles.naviTitle, "bodyB20x")}>Components</p>
               <ul className={styles.navigator}>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-button">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/button">
                     Button
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-text-field">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/text-field">
                     Text field
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
                   <Link
                     className={classNames(styles.menu, "body16x")}
-                    to="/components-selection-control"
+                    to="/components/selection-control"
                   >
                     Selection Control
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-tab">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/tab">
                     Tab
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-badge-tag">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/badge-tag">
                     Badge Tag
                   </Link>
                 </li>
                 <li className={styles.menuWrapper_check}>
                   <Link
                     className={classNames(styles.menu, styles.checked, "bodyB16x")}
-                    to="/components-tooltip"
+                    to="/components/tooltip"
                   >
                     Tooltip
                   </Link>
@@ -53,33 +53,33 @@ function ComponentsTooltip() {
                 <li className={styles.menuWrapper}>
                   <Link
                     className={classNames(styles.menu, "body16x")}
-                    to="/components-action-sheets"
+                    to="/components/action-sheets"
                   >
                     Action Sheets
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-navigation">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/navigation">
                     Navigation
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-modals">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/modals">
                     Modals
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-loading">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/loading">
                     Loading
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-carousel">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/carousel">
                     Carousel
                   </Link>
                 </li>
                 <li className={styles.menuWrapper}>
-                  <Link className={classNames(styles.menu, "body16x")} to="/components-toast">
+                  <Link className={classNames(styles.menu, "body16x")} to="/components/toast">
                     Toast
                   </Link>
                 </li>
