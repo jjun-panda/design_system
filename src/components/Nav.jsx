@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Container from "./Container";
-import Grid from "./Grid";
+import GridHeader from "./GridHeader";
 import styles from "./Nav.module.css";
 import classNames from "classnames";
 import "../components/webMenu.css";
@@ -10,7 +10,7 @@ function Nav() {
   return (
     <div className={styles.nav}>
       <Container>
-        <Grid className={styles.container}>
+        <GridHeader className={classNames(styles.container, "header")}>
           <Link to="/">
             <div className={classNames(styles.logo, "title24x")}>JJUN Creative</div>
           </Link>
@@ -32,7 +32,7 @@ function Nav() {
             </Link>
           </ul>
           <NavMobile className={styles.NavMobile} />
-        </Grid>
+        </GridHeader>
       </Container>
     </div>
   );

@@ -1,0 +1,13 @@
+.gridHeader {
+  margin: 0 auto;
+}
+@media (max-width: 1179px) {
+  .gridHeader {
+    margin: 0 24px;
+  }
+}
+@media (max-width: 1023px) {
+  .gridHeader {
+    margin: 0 8px 0 16px;
+  }
+}

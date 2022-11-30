@@ -1,12 +1,11 @@
-import Button from "../components/Button";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
-import Lined from "../components/Lined";
 import styles from "./HomePage.module.css";
-import landingImg from "../assets/landing.svg";
+import GridBody from "../components/GridBody";
 import classNames from "classnames";
 import pcVideo from "../assets/PC_video.mp4";
 import mVideo from "../assets/Mobile_video.mp4";
-import { Link } from "react-router-dom";
+import { ReactComponent as Iconlinkright } from "../assets/svg/ico_link_right.svg";
 
 function HomePage() {
   return (
@@ -37,39 +36,89 @@ function HomePage() {
       <div className={styles.boxs}>
         <div className={styles.box_bran}>
           <div className={styles.box_one}>
-            <div className={styles.content}>
-              <Link to="/brand">test</Link>
-            </div>
+            <p className={classNames(styles.box_title, "title32x")}>What is JJUN Creative?</p>
+            <p className={classNames(styles.box_title, "body24x")}>
+              JJUN Creative은 JJUN 디자인 전반을 구성하는 컴포넌트, 인터랙션, 그리고 UX의 통합
+              가이드라인 입니다. JJUN Creative은 서비스를 효율적으로 만들고 일관된 사용자 경험을
+              제공하는데 필수적인 역할을 합니다.
+            </p>
           </div>
         </div>
       </div>
-      <div className={styles.boxs}>
-        <Link to="/brand">
-          <div className={styles.box_two}>
-            <div className={styles.content}>Brand</div>
+      <GridBody>
+        <div className={styles.boxs}>
+          <div className={styles.box_size}>
+            <div className={styles.box_info}>
+              <p className={classNames(styles.box_content, "title24x")}>Main</p>
+            </div>
           </div>
-        </Link>
-        <Link to="/Foundations">
-          <div className={styles.box_two}>
-            <div className={styles.content}>Foundations</div>
-          </div>
-        </Link>
-        <Link to="/Components">
-          <div className={styles.box_two}>
-            <div className={styles.content}>Components</div>
-          </div>
-        </Link>
-        <Link to="/Contents">
-          <div className={styles.box_two}>
-            <div className={styles.content}>Contents</div>
-          </div>
-        </Link>
-        <Link to="/Resources">
-          <div className={styles.box_two}>
-            <div className={styles.content}>Resources</div>
-          </div>
-        </Link>
-      </div>
+          <Link className={styles.box_size} to="/brand">
+            <div className={styles.box_two}>
+              <div className={styles.box_text}>
+                <p className={classNames(styles.box_content, "title24x")}>Brand</p>
+                <span className={"body16x"}>
+                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
+                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
+                  제시합니다.
+                </span>
+              </div>
+              <Iconlinkright className={styles.svgSize} />
+            </div>
+          </Link>
+          <Link className={styles.box_size} to="/Foundations">
+            <div className={styles.box_two}>
+              <div className={styles.box_text}>
+                <p className={classNames(styles.box_content, "title24x")}>Foundations</p>
+                <span className={"body16x"}>
+                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
+                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
+                  제시합니다.
+                </span>
+              </div>
+              <Iconlinkright className={styles.svgSize} />
+            </div>
+          </Link>
+          <Link className={styles.box_size} to="/Components">
+            <div className={styles.box_two}>
+              <div className={styles.box_text}>
+                <p className={classNames(styles.box_content, "title24x")}>Components</p>
+                <span className={"body16x"}>
+                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
+                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
+                  제시합니다.
+                </span>
+              </div>
+              <Iconlinkright className={styles.svgSize} />
+            </div>
+          </Link>
+          <Link className={styles.box_size} to="/Contents">
+            <div className={styles.box_two}>
+              <div className={styles.box_text}>
+                <p className={classNames(styles.box_content, "title24x")}>Contents</p>
+                <span className={"body16x"}>
+                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
+                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
+                  제시합니다.
+                </span>
+              </div>
+              <Iconlinkright className={styles.svgSize} />
+            </div>
+          </Link>
+          <Link className={styles.box_size} to="/Resources">
+            <div className={styles.box_two}>
+              <div className={styles.box_text}>
+                <p className={classNames(styles.box_content, "title24x")}>Resources</p>
+                <span className={"body16x"}>
+                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
+                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
+                  제시합니다.
+                </span>
+              </div>
+              <Iconlinkright className={styles.svgSize} />
+            </div>
+          </Link>
+        </div>
+      </GridBody>
     </>
   );
 }

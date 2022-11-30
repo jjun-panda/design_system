@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { Link } from "react-router-dom";
 // import React, { useEffect } from "react";
 import styles from "./NavMobile.module.css";
@@ -21,7 +22,7 @@ function NavMobile({ onClose }) {
   // }, []);
 
   return (
-    <div className={"menuSize"}>
+    <div className={styles.menuSize}>
       <input type="checkbox" id="checkBox" />
       <label for="checkBox">
         <span></span>
@@ -29,21 +30,21 @@ function NavMobile({ onClose }) {
         <span></span>
       </label>
       <div id="sideMenu">
-        <ul>
+        <ul className={classNames(styles.menuList, "title40x")}>
           <Link to="/brand">
-            <li>Brand</li>
+            <li className={"title40x"}>Brand</li>
           </Link>
           <Link to="/foundations">
-            <li>Foundations</li>
+            <li className={"title40x"}>Foundations</li>
           </Link>
           <Link to="/components">
-            <li>Components</li>
+            <li className={"title40x"}>Components</li>
           </Link>
           <Link to="/contents">
-            <li>Contents</li>
+            <li className={"title40x"}>Contents</li>
           </Link>
           <Link to="/resources">
-            <li>Resources</li>
+            <li className={"title40x"}>Resources</li>
           </Link>
         </ul>
         {/* footer */}

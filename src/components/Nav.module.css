@@ -31,7 +31,7 @@
   content: "Beta";
   vertical-align: super;
   font-size: 0.75rem;
-  color: var(--main);
+  color: var(--m-Main);
   margin-left: 4px;
 }
 
@@ -50,7 +50,7 @@ ul.menu {
 
 ul.menu a:hover,
 ul.menu a:active {
-  color: var(--main);
+  color: var(--m-Main);
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
@@ -109,12 +109,15 @@ ul.menu a:active {
   ul.menu {
     display: none;
   }
-}
-
-@media (max-width: 767px) {
+  .nav {
+    height: 56px;
+  }
   .mobileToggle {
     display: inline-flex;
   }
+}
+
+@media (max-width: 767px) {
 }
 
 @media (max-width: 639px) {

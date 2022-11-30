@@ -131,11 +131,11 @@ hr {
 }
 
 mark {
-  background: var(--main);
+  background: var(--m-Main);
   color: var(--white);
 }
 ::selection {
-  background: var(--main);
+  background: var(--m-Main);
   color: var(--white);
 }
 

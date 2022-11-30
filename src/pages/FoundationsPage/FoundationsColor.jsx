@@ -3,6 +3,8 @@ import Container from "../../components/Container";
 import styles from "./FoundationsPage.module.css";
 import Grid from "../../components/Grid";
 import classNames from "classnames";
+import svgAdd from "../../assets/svg/ico_add_fill.svg";
+
 import mainColor from "../../assets/Main Color.png";
 import SebColor from "../../assets/Seb Color.png";
 
@@ -77,12 +79,10 @@ function FoundationsColor() {
                 마로솔 디자인 시스템의 브랜드 컬러는 서비스에 맞게 색상 변경이 가능하며, 각 색상은
                 `Brand Sub Color`와 대응되어 아이콘, 컴포넌트 등의 요소에 사용됩니다.
               </p>
-
               <p className={classNames(styles.textSeb, "bodyB20x")}>Main Color</p>
               <img src={mainColor} alt="샘플이미지" />
-
               <p className={classNames(styles.textSeb, "bodyB20x")}>Seb Color</p>
-              <img src={SebColor} alt="샘플이미지" />
+              <img src={SebColor} alt="샘플이미지" /> <img src={svgAdd} alt="샘플이미지" />
             </div>
           </div>
         </div>

@@ -1,11 +1,15 @@
 :root {
   /* main color */
-  --main: #00c389;
-  --mainSec: #e3f6ee;
+  --main: #26449a;
+  --mainSec: #54c3f1;
+
+  /* main color */
+  --m-Main: #00c389;
+  --m-MmainSec: #e3f6ee;
 
   /* seb color */
-  --seb: #00996b;
-  --sebSec: #dcede9;
+  --m-seb: #00996b;
+  --m-sebSec: #dcede9;
 
   /* point color */
   --point: #ff7a00;
@@ -42,6 +46,6 @@
   --carousel: #00000019;
 
   /* ur color */
-  --urMain: #0064dc;
-  --urSeb: #f2f8fd;
+  --u-Main: #0064dc;
+  --u-Seb: #f2f8fd;
 }

@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import Container from "../components/Container";
-import Card from "../components/Card";
 import styles from "./SamplePage.module.css";
 import classNames from "classnames";
 import Grid from "../components/Grid";
+import { Link } from "react-router-dom";
 
 function ComponentsPage() {
   return (
@@ -38,7 +37,7 @@ function ComponentsPage() {
                 width: "160px",
                 height: "160px",
                 borderRadius: "20px",
-                backgroundColor: "var(--main)",
+                backgroundColor: "var(--m-Main)",
               }}
             />
             <div
@@ -46,7 +45,7 @@ function ComponentsPage() {
                 marginTop: "8px",
                 width: "160px",
                 boxSizing: "border-box",
-                border: "1px solid var(--main)",
+                border: "1px solid var(--m-Main)",
               }}
             />
             <div
@@ -54,7 +53,7 @@ function ComponentsPage() {
                 marginTop: "8px",
                 width: "160px",
                 boxSizing: "border-box",
-                border: "2px solid var(--main)",
+                border: "2px solid var(--m-Main)",
               }}
             />
             <div
@@ -62,7 +61,7 @@ function ComponentsPage() {
                 marginTop: "8px",
                 width: "160px",
                 boxSizing: "border-box",
-                border: "3px solid var(--main)",
+                border: "3px solid var(--m-Main)",
               }}
             />
           </div>
@@ -185,9 +184,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
+                                    border: '1px solid var(--m-Main)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--main)'
+                                    color: 'var(--m-Main)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -196,9 +195,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
+                                    border: '1px solid var(--m-Main)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--main)'
+                                    color: 'var(--m-Main)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -207,8 +206,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
-                                    backgroundColor: 'var(--main)',
+                                    border: '1px solid var(--m-Main)',
+                                    backgroundColor: 'var(--m-Main)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -220,9 +219,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
+                                    border: '1px solid var(--m-Main)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--main)'
+                                    color: 'var(--m-Main)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -231,9 +230,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
+                                    border: '1px solid var(--m-Main)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--main)'
+                                    color: 'var(--m-Main)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -242,8 +241,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
-                                    backgroundColor: 'var(--main)',
+                                    border: '1px solid var(--m-Main)',
+                                    backgroundColor: 'var(--m-Main)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -255,9 +254,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
+                                    border: '1px solid var(--m-Main)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--main)'
+                                    color: 'var(--m-Main)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -266,9 +265,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
+                                    border: '1px solid var(--m-Main)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--main)'
+                                    color: 'var(--m-Main)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -277,8 +276,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--main)',
-                                    backgroundColor: 'var(--main)',
+                                    border: '1px solid var(--m-Main)',
+                                    backgroundColor: 'var(--m-Main)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -419,18 +418,18 @@ function ComponentsPage() {
         <div className={styles.manulist}>
           <ul>
             <li>
-              <a
+              <Link
                 target="_blank"
                 href="https://myrobotsolution.com/solutions/"
                 className={styles.check}
               >
                 Manu_#1
-              </a>
+              </Link>
             </li>
             <li>
-              <a target="_blank" href="https://myrobotsolution.com/store/brand/6/0/list">
+              <Link target="_blank" href="https://myrobotsolution.com/store/brand/6/0/list">
                 Manu_#2
-              </a>
+              </Link>
             </li>
             <li>
               <a target="_blank" href="https://myrobotsolution.com/projects/">
@@ -442,23 +441,23 @@ function ComponentsPage() {
         <div className={classNames(styles.manulist, "w2")}>
           <ul>
             <li>
-              <a target="_blank" href="https://myrobotsolution.com/solutions/">
+              <Link target="_blank" href="https://myrobotsolution.com/solutions/">
                 Manu_#1
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 target="_blank"
                 href="https://myrobotsolution.com/store/brand/6/0/list"
                 className={styles.check}
               >
                 Manu_#2
-              </a>
+              </Link>
             </li>
             <li>
-              <a target="_blank" href="https://myrobotsolution.com/projects/">
+              <Link target="_blank" href="https://myrobotsolution.com/projects/">
                 Manu_#3
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

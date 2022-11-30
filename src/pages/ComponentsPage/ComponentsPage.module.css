@@ -54,7 +54,7 @@
   display: block;
   align-items: center;
   border-radius: 8px;
-  /* background-color: var(--mainSec); */
+  /* background-color: var(--m-seb); */
 }
 
 a.menu {
@@ -75,10 +75,10 @@ a.menu {
 }
 
 a.checked {
-  color: var(--main);
+  color: var(--m-Main);
 }
 .menuWrapper:hover > a.menu {
-  color: var(--main);
+  color: var(--m-Main);
 }
 .storyMain {
   width: calc(100% - 300px);
@@ -93,13 +93,13 @@ a.checked {
 .callout {
   /* padding: 16px; */
   /* background-color: var(--gray50); */
-  /* background-color: var(--mainSec); */
+  /* background-color: var(--m-seb); */
   /* border-radius: 8px; */
   padding-top: 40px;
 }
 
 .textMain {
-  /* background-image: linear-gradient(120deg, var(--main) 0%, var(--seb) 100%);
+  /* background-image: linear-gradient(120deg, var(--m-Main) 0%, var(--m-seb) 100%);
     background-repeat: no-repeat;
     background-size: 100% 8px;
     background-position: 0 108%;
