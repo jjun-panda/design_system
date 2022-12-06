@@ -1,10 +1,16 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Container from "./Container";
 import GridHeader from "./GridHeader";
 import styles from "./Nav.module.css";
 import classNames from "classnames";
 import "../components/webMenu.css";
 import NavMobile from "../components/NavMobile";
+
+function getLinkStyle({ isActive }) {
+  return {
+    color: isActive ? "var(--gray900)" : "",
+  };
+}
 
 function Nav() {
   return (
@@ -15,21 +21,21 @@ function Nav() {
             <div className={classNames(styles.logo, "title24x")}>JJUN Creative</div>
           </Link>
           <ul className={styles.menu}>
-            <Link to="/brand">
+            <NavLink style={getLinkStyle} to="/brand">
               <li>Brand</li>
-            </Link>
-            <Link to="/foundations">
+            </NavLink>
+            <NavLink style={getLinkStyle} to="/foundations">
               <li>Foundations</li>
-            </Link>
-            <Link to="/components">
+            </NavLink>
+            <NavLink style={getLinkStyle} to="/components">
               <li>Components</li>
-            </Link>
-            <Link to="/contents">
+            </NavLink>
+            <NavLink style={getLinkStyle} to="/contents">
               <li>Contents</li>
-            </Link>
-            <Link to="/resources">
+            </NavLink>
+            <NavLink style={getLinkStyle} to="/resources">
               <li>Resources</li>
-            </Link>
+            </NavLink>
           </ul>
           <NavMobile className={styles.NavMobile} />
         </GridHeader>
