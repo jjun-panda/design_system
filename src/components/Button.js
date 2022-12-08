@@ -47,7 +47,7 @@ const Button = styled.button`
   border-radius: ${({ round }) => (round ? `9999px` : `4px`)};
   color: var(--white);
   font-size: ${({ size }) => SIZES[size] ?? SIZES["Small"]}px;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   padding: 0 16px;
   height: ${({ size }) => HEIGHTSIZES[size] ?? HEIGHTSIZES["Small"]}px;

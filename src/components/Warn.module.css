@@ -5,12 +5,13 @@
 .icon {
   display: block;
   margin: 0 auto;
+  max-width: 200px;
 }
 
 .title {
-  margin: 20px auto 3px;
+  margin: 16px auto 8px;
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .big .title {
@@ -20,11 +21,11 @@
 .description {
   margin: 0;
   font-weight: 500;
-  line-height: 2.07;
+  line-height: 1.6;
   color: #878787;
 }
 
 .big .description {
   font-size: 1.125rem;
-  line-height: 1.61;
+  line-height: 1.6;
 }

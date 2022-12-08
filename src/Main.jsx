@@ -46,6 +46,9 @@ import WishlistPage from "./pages/WishlistPage";
 import ScrollTop from "./components/ScrollTop";
 import SamplePage from "./pages/SamplePage";
 
+import { NotFound } from "react-admin";
+import NotFoundPage from "pages/NotFoundPage";
+
 function Main() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -53,7 +56,6 @@ function Main() {
       <App>
         <Routes>
           <Route path="/" element={<HomePage />} />
-
           <Route path="brand" element={<BrandPage />} />
           <Route path="brand/values" element={<BrandValues />} />
           <Route path="brand/logo" element={<BrandLogo />} />
@@ -96,6 +98,7 @@ function Main() {
 
           <Route path="sample" element={<SamplePage />} />
           <Route path="wishlist" element={<WishlistPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </App>
     </BrowserRouter>

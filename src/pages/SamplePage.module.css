@@ -70,12 +70,11 @@ label {
 }
 
 button {
-  margin-right: 16px;
-  margin-top: 16px;
+  margin: 16px;
 }
 
 button:last-child {
-  margin: 16px 0 0;
+  /* margin: 16px 0 0; */
 }
 
 .size {
@@ -515,7 +514,7 @@ button:last-child {
 .manulist ul li a.check {
   color: var(--white);
   background-color: var(--m-Main);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Tablet(세로) (해상도 768px ~ 1023px)*/

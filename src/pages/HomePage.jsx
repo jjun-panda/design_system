@@ -51,7 +51,9 @@ function HomePage() {
         <div className={styles.boxs}>
           <div className={styles.box_size}>
             <div className={styles.box_info}>
-              <p className={classNames(styles.box_content, "title24x")}>Main</p>
+              <p className={classNames(styles.box_content, "title40x")}>
+                빠르고 효율적인 JJUN Creative, 간편하게 만나보세요!
+              </p>
             </div>
           </div>
           <Link className={styles.box_size} to="/brand">
@@ -59,9 +61,9 @@ function HomePage() {
               <div className={styles.box_text}>
                 <p className={classNames(styles.box_content, "title24x")}>Brand</p>
                 <span className={"body16x"}>
-                  브랜드 아이엔티티의 일관되고 지속적인 경험을 가이드하고 만들어 갑니다. 효과적이고
-                  정확하게 전달하기 위해 마케팅 홍보 및 콘텐츠 활용에 쓰이며, 본 관리규정을 준수하는
-                  것이 중요합니다.
+                  브랜드는 일관되고 지속적인 경험을 가이드하고 만들어 갑니다. 효과적이고 정확하게
+                  전달하기 위해 마케팅 홍보 및 콘텐츠 활용에 쓰이며, 본 관리규정을 준수하는 것이
+                  중요합니다.
                 </span>
               </div>
               <Iconlinkright className={styles.svgSize} />
@@ -72,9 +74,8 @@ function HomePage() {
               <div className={styles.box_text}>
                 <p className={classNames(styles.box_content, "title24x")}>Foundations</p>
                 <span className={"body16x"}>
-                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
-                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
-                  제시합니다.
+                  파운데이션은 일관된 레이아웃과 그에 따른 사용자 경험을 만드는 데 필수적인 시각적
+                  요소입니다.
                 </span>
               </div>
               <Iconlinkright className={styles.svgSize} />
@@ -85,9 +86,8 @@ function HomePage() {
               <div className={styles.box_text}>
                 <p className={classNames(styles.box_content, "title24x")}>Components</p>
                 <span className={"body16x"}>
-                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
-                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
-                  제시합니다.
+                  컴포넌트는 디자인시스템의 재사용 가능한 구성요소입니다. 각 구성요소는 상호 작용
+                  또는 UI 요구를 충족합니다.
                 </span>
               </div>
               <Iconlinkright className={styles.svgSize} />
@@ -111,9 +111,8 @@ function HomePage() {
               <div className={styles.box_text}>
                 <p className={classNames(styles.box_content, "title24x")}>Resources</p>
                 <span className={"body16x"}>
-                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
-                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
-                  제시합니다.
+                  리소스는 업무를 효율화하기 위한 툴 또는 이미지로 관련 다운로드 가능한 파일 또는
+                  링크를 일괄 취합해 제공합니다.
                 </span>
               </div>
               <Iconlinkright className={styles.svgSize} />

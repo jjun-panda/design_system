@@ -164,7 +164,7 @@
     margin: 96px auto;
   }
   .boxs .box_size {
-    max-width: calc((100% - 40px) / 2);
+    max-width: calc((100% - 20px) / 2);
   }
 }
 
@@ -202,6 +202,10 @@
   .boxs .box_info {
     aspect-ratio: 4/3;
     padding: 32px;
+  }
+  .boxs .box_size .box_info {
+    aspect-ratio: auto;
+    height: calc(100vh - 56px);
   }
   .svgSize {
     width: 32px;
