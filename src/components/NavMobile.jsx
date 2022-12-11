@@ -31,19 +31,19 @@ function NavMobile({ onClose }) {
       </label>
       <div id="sideMenu">
         <ul className={classNames(styles.menuList, "title40x")}>
-          <Link to="/brand">
+          <Link target="_top" to="/brand">
             <li className={"title40x"}>Brand</li>
           </Link>
-          <Link to="/foundations">
+          <Link target="_top" to="/foundations">
             <li className={"title40x"}>Foundations</li>
           </Link>
-          <Link to="/components">
+          <Link target="_top" to="/components">
             <li className={"title40x"}>Components</li>
           </Link>
-          <Link to="/contents">
+          <Link target="_top" to="/contents">
             <li className={"title40x"}>Contents</li>
           </Link>
-          <Link to="/resources">
+          <Link target="_top" to="/resources">
             <li className={"title40x"}>Resources</li>
           </Link>
         </ul>

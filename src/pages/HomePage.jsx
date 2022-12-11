@@ -3,8 +3,9 @@ import Container from "../components/Container";
 import styles from "./HomePage.module.css";
 import GridBody from "../components/GridBody";
 import classNames from "classnames";
-import pcVideo from "../assets/PC_video.mp4";
-import mVideo from "../assets/Mobile_video.mp4";
+
+import pcImg from "../assets/PC_img.png";
+import mImg from "../assets/Mobile_img.png";
 import { ReactComponent as Iconlinkright } from "../assets/svg/ico_link_right.svg";
 
 function HomePage() {
@@ -13,14 +14,11 @@ function HomePage() {
       <div className={styles.bg} />
       <div className={styles.visual_area}>
         <div className={styles.pc_video}>
-          <video muted autoPlay loop id="main_video_01">
-            <source src={pcVideo} type="video/mp4" />
-          </video>
+          <img src={pcImg} alt="pcImg" />
         </div>
+
         <div className={styles.mobile_video}>
-          <video muted autoPlay loop id="main_video_01">
-            <source src={mVideo} type="video/mp4" />
-          </video>
+          <img src={mImg} alt="mImg" />
         </div>
       </div>
       <Container className={styles.container}>
@@ -49,7 +47,7 @@ function HomePage() {
       </div>
       <GridBody>
         <div className={styles.boxs}>
-          <div className={styles.box_size}>
+          <div className={classNames(styles.box_size, styles.box_textmain)}>
             <div className={styles.box_info}>
               <p className={classNames(styles.box_content, "title40x")}>
                 빠르고 효율적인 JJUN Creative, 간편하게 만나보세요!
@@ -98,9 +96,8 @@ function HomePage() {
               <div className={styles.box_text}>
                 <p className={classNames(styles.box_content, "title24x")}>Contents</p>
                 <span className={"body16x"}>
-                  UX 가이드라인은 LINE 서비스 고유의 일관성있는 UX를 유지하기 위한 가이드라인입니다.
-                  LINE 디자인 시스템은 LINE 메신저 사용 경험을 고려한 의미있는 UX 가이드라인을
-                  제시합니다.
+                  콘텐츠는 JJUN Creative에 의한 기준으로 각 콘텐츠별 어떤 유형의 디자인을 원하는지
+                  대략적으로 설명합니다.
                 </span>
               </div>
               <Iconlinkright className={styles.svgSize} />

@@ -13,7 +13,7 @@ function List() {
               <a className={classNames(styles.menu, "body16x")}>Color</a>
             </li>
             <li className={styles.menuWrapper}>
-              <a className={classNames(styles.menu, "body16x")}>Typorgaphy</a>
+              <a className={classNames(styles.menu, "body16x")}>Typography</a>
             </li>
             <li className={styles.menuWrapper}>
               <a className={classNames(styles.menu, "body16x")}>Icon</a>

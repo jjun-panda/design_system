@@ -10,7 +10,7 @@ import BrandApplication from "./pages/BrandPage/BrandApplication";
 
 import FoundationsPage from "./pages/FoundationsPage/FoundationsPage";
 import FoundationsColor from "./pages/FoundationsPage/FoundationsColor";
-import FoundationsTyporgaphy from "./pages/FoundationsPage/FoundationsTyporgaphy";
+import FoundationsTypography from "./pages/FoundationsPage/FoundationsTypography";
 import FoundationsIcon from "./pages/FoundationsPage/FoundationsIcon";
 import FoundationsGrid from "./pages/FoundationsPage/FoundationsGrid";
 import FoundationsRadius from "./pages/FoundationsPage/FoundationsRadius";
@@ -46,7 +46,7 @@ import WishlistPage from "./pages/WishlistPage";
 import ScrollTop from "./components/ScrollTop";
 import SamplePage from "./pages/SamplePage";
 
-import { NotFound } from "react-admin";
+// import { NotFound } from "react-admin";
 import NotFoundPage from "pages/NotFoundPage";
 
 function Main() {
@@ -64,7 +64,7 @@ function Main() {
 
           <Route path="foundations" element={<FoundationsPage />} />
           <Route path="foundations/color" element={<FoundationsColor />} />
-          <Route path="foundations/typorgaphy" element={<FoundationsTyporgaphy />} />
+          <Route path="foundations/Typography" element={<FoundationsTypography />} />
           <Route path="foundations/icon" element={<FoundationsIcon />} />
           <Route path="foundations/grid" element={<FoundationsGrid />} />
           <Route path="foundations/radius" element={<FoundationsRadius />} />

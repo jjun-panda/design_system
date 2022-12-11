@@ -125,10 +125,19 @@
 
 /* video */
 .visual_area {
-  height: 540px;
+  /* height: 540px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; */
+  height: 100%;
   overflow: hidden;
   position: relative;
   width: 100%;
+  max-width: 1180px;
+  width: 100%;
+  background-color: var(--m-Main);
+  margin: 80px auto 0;
+  border-radius: 20px;
 }
 .pc_video {
   display: block;
@@ -156,6 +165,9 @@
   .boxs .box_one {
     padding: 160px 24px;
   }
+  .visual_area {
+    border-radius: 0;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -165,6 +177,9 @@
   }
   .boxs .box_size {
     max-width: calc((100% - 20px) / 2);
+  }
+  .visual_area {
+    margin: 56px auto 0;
   }
 }
 
@@ -183,29 +198,39 @@
     display: block;
   }
   .boxs {
-    gap: 0;
+    gap: 24px;
   }
   .boxs .box_size {
     max-width: calc(100%);
-    border: 0;
-    border-top: 1px solid var(--gray200);
+    border: 1px solid var(--gray200);
     background-color: var(--white);
+    margin: 0 24px;
+    border-radius: 8px;
   }
+
   .boxs .box_size:hover {
     background-color: var(--gray100);
+    border: 1px solid var(--gray100);
+    box-shadow: none;
+    -webkit-transform: none;
+    transform: none;
+  }
+  .boxs .box_textmain:hover {
+    background-color: var(--white);
     border: 0;
     box-shadow: none;
     -webkit-transform: none;
     transform: none;
   }
-  .boxs .box_two,
-  .boxs .box_info {
+  .boxs .box_two {
     aspect-ratio: 4/3;
     padding: 32px;
   }
+
   .boxs .box_size .box_info {
     aspect-ratio: auto;
     height: calc(100vh - 56px);
+    padding: 0;
   }
   .svgSize {
     width: 32px;
