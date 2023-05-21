@@ -31,7 +31,7 @@
   content: "Beta";
   vertical-align: super;
   font-size: 0.75rem;
-  color: var(--m-Main);
+  color: var(--light-primary-normal);
   margin-left: 4px;
 }
 
@@ -46,7 +46,7 @@ ul.menu {
 ul.menu a {
   font-weight: 700;
   position: relative;
-  color: var(--gray500);
+  color: var(--gray-500);
 }
 /* ul.menu>li:not(:last-child) {
   margin-right: 30px;
@@ -54,7 +54,7 @@ ul.menu a {
 
 ul.menu a:hover,
 ul.menu a:active {
-  color: var(--gray900);
+  color: var(--gray-900);
   /* text-decoration: underline;
   text-decoration-thickness: 2px; */
 }
@@ -69,7 +69,7 @@ ul.menu a:after {
   transition: all 0.2s ease-in-out;
   transition-duration: 0.3s;
   opacity: 0;
-  background-color: var(--gray900);
+  background-color: var(--gray-900);
 }
 ul.menu a:hover:after {
   width: 100%;
@@ -95,7 +95,7 @@ ul.menu a:hover:after {
 .mobileToggle span {
   width: 20px;
   height: 4px;
-  background: var(--gray900);
+  background: var(--gray-900);
   content: " ";
 }
 .mobileToggle span:nth-child(1) {
@@ -140,7 +140,7 @@ ul.menu a:hover:after {
   .nav::after {
     backdrop-filter: none;
     background-color: var(--white);
-    border-bottom: 1px solid var(--gray200);
+    border-bottom: 1px solid var(--gray-200);
   }
 }
 

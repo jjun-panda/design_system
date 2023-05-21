@@ -45,7 +45,7 @@
 
 .menuWrapper:active,
 .menuWrapper:hover {
-  background-color: var(--gray50);
+  background-color: var(--gray-50);
   transition: all 300ms;
 }
 
@@ -55,7 +55,7 @@
   display: block;
   align-items: center;
   border-radius: 8px;
-  /* background-color: var(--m-seb); */
+  /* background-color: var(--light-primary-strong); */
 }
 
 a.menu {
@@ -63,7 +63,7 @@ a.menu {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  color: var(--gray900);
+  color: var(--gray-900);
   position: relative;
   border-radius: 8px;
   text-decoration: none;
@@ -76,11 +76,11 @@ a.menu {
 }
 
 a.checked {
-  color: var(--m-Main);
-  background-color: var(--m-MainSec);
+  color: var(--light-primary-normal);
+  background-color: var(--light-primary-assistive);
 }
 .menuWrapper:hover > a.menu {
-  color: var(--m-Main);
+  color: var(--light-primary-normal);
 }
 .storyMain {
   width: calc(100% - 300px);
@@ -97,8 +97,8 @@ a.checked {
 
 .callout {
   /* padding: 16px; */
-  background-color: var(--gray50);
-  /* background-color: var(--m-seb); */
+  background-color: var(--gray-50);
+  /* background-color: var(--light-primary-strong); */
   /* border-radius: 8px; */
   margin-top: 20px;
   padding: 16px;
@@ -111,7 +111,7 @@ a.checked {
   gap: 16px;
 }
 .textMain {
-  /* background-image: linear-gradient(120deg, var(--m-Main) 0%, var(--m-seb) 100%);
+  /* background-image: linear-gradient(120deg, var(--light-primary-normal) 0%, var(--light-primary-strong) 100%);
     background-repeat: no-repeat;
     background-size: 100% 8px;
     background-position: 0 108%;

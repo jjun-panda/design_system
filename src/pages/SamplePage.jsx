@@ -24,7 +24,7 @@ function ComponentsPage() {
           >
             <div>
               <img
-                src="https://marosol-bucket-dev.s3.ap-northeast-2.amazonaws.com/0211color/00c09f_logo.svg"
+                src=""
                 alt=""
                 height={50}
                 style={{
@@ -37,7 +37,7 @@ function ComponentsPage() {
                 width: "160px",
                 height: "160px",
                 borderRadius: "20px",
-                backgroundColor: "var(--m-Main)",
+                backgroundColor: "var(--light-primary-normal)",
               }}
             />
             <div
@@ -45,7 +45,7 @@ function ComponentsPage() {
                 marginTop: "8px",
                 width: "160px",
                 boxSizing: "border-box",
-                border: "1px solid var(--m-Main)",
+                border: "1px solid var(--light-primary-normal)",
               }}
             />
             <div
@@ -53,7 +53,7 @@ function ComponentsPage() {
                 marginTop: "8px",
                 width: "160px",
                 boxSizing: "border-box",
-                border: "2px solid var(--m-Main)",
+                border: "2px solid var(--light-primary-normal)",
               }}
             />
             <div
@@ -61,7 +61,7 @@ function ComponentsPage() {
                 marginTop: "8px",
                 width: "160px",
                 boxSizing: "border-box",
-                border: "3px solid var(--m-Main)",
+                border: "3px solid var(--light-primary-normal)",
               }}
             />
           </div>
@@ -74,60 +74,71 @@ function ComponentsPage() {
               <p
                 style={{
                   fontSize: "16px",
-                  border: "1px solid #272727",
+                  border: "2px solid var(--light-primary-normal)",
                   padding: "8px 16px",
                   display: "inline-block",
+                  color: "var(--light-primary-normal)",
+                  fontWeight: "700",
+                  marginBottom: "16px",
                 }}
               >
-                전용서체 : Pretendard
+                전용서체 : PretendardVariable
               </p>
-              <p className="title40x">
-                <span>타이틀</span>
-                40px 1.25 Bold
-              </p>
-              <p className="title32x">
-                <span>타이틀</span>
-                32px 1.25 Bold
-              </p>
-              <p className="title24x">
-                <span>타이틀</span>
-                24px 1.25 Bold
-              </p>
-              <p className="title20x">
-                <span>타이틀</span>
-                20px 1.25 Bold
-              </p>
-              <p className="title18x">
-                <span>소제목</span>
-                18px 1.25 Bold
-              </p>
-              <p className="title16x">
-                <span>본문강조</span>
-                16px 1.25 Bold
-              </p>
-              <p className="title14x">
-                <span>소소제목</span>
-                14px 1.25 Bold
-              </p>
-              <p className="body16x">
-                <span>본문</span>
-                16px 1.5 Regular
-                <br />
-                인간의 인지·추론·판단 등의 능력을 컴퓨터로 구현하기 위한 기술 혹은 그 연구 분야.
-                인간의 인지·추론·판단 등의 능력을 컴퓨터로 구현하기 위한 기술 혹은 그 연구 분야 등을
-                총칭하는 용어로 사용된다. 컴퓨터와 같은 기계는 인간에 비해 제어, 연산 등의 능력이
-                뛰어나지만, 사람이 가지고 있는 지능을 기반으로 하는 인지·추론·판단 등의 능력은
-                가지고 있지 않다.
-                <br />
-                Amid escalating tensions with Taiwan in recent years, China has previously banned
-                imports of some Taiwanese products. Last year, China banned imports of pineapples
-                from the island followed by some types of apples, citing “pest control.” Earlier
-                this year, it also banned Taiwanese grouper fish, citing detection of some banned
-                drugs and excessive antibiotics. Beijing's recent announcements coincide with
-                Pelosi’s visit to Taiwan, the first trip to the self-ruled island by a sitting
-                speaker in 25 years, and after Beijing issued stern warnings that it would take
-                countermeasures in retaliation.
-              </p>
+              <div
+                style={{
+                  display: "flex",
+                  gap: "8px",
+                  flexDirection: "column",
+                }}
+              >
+                <p className="title40x">
+                  <span>타이틀</span>
+                  40px 1.25 Bold
+                </p>
+                <p className="title32x">
+                  <span>타이틀</span>
+                  32px 1.25 Bold
+                </p>
+                <p className="title24x">
+                  <span>타이틀</span>
+                  24px 1.25 Bold
+                </p>
+                <p className="title20x">
+                  <span>타이틀</span>
+                  20px 1.25 Bold
+                </p>
+                <p className="title18x">
+                  <span>소제목</span>
+                  18px 1.25 Bold
+                </p>
+                <p className="title16x">
+                  <span>본문강조</span>
+                  16px 1.25 Bold
+                </p>
+                <p className="title14x">
+                  <span>소소제목</span>
+                  14px 1.25 Bold
+                </p>
+                <p className="body16x">
+                  <span>본문</span>
+                  16px 1.5 Regular
+                  <br />
+                  인간의 인지·추론·판단 등의 능력을 컴퓨터로 구현하기 위한 기술 혹은 그 연구 분야.
+                  인간의 인지·추론·판단 등의 능력을 컴퓨터로 구현하기 위한 기술 혹은 그 연구 분야
+                  등을 총칭하는 용어로 사용된다. 컴퓨터와 같은 기계는 인간에 비해 제어, 연산 등의
+                  능력이 뛰어나지만, 사람이 가지고 있는 지능을 기반으로 하는 인지·추론·판단 등의
+                  능력은 가지고 있지 않다.
+                  <br />
+                  Amid escalating tensions with Taiwan in recent years, China has previously banned
+                  imports of some Taiwanese products. Last year, China banned imports of pineapples
+                  from the island followed by some types of apples, citing “pest control.” Earlier
+                  this year, it also banned Taiwanese grouper fish, citing detection of some banned
+                  drugs and excessive antibiotics. Beijing's recent announcements coincide with
+                  Pelosi’s visit to Taiwan, the first trip to the self-ruled island by a sitting
+                  speaker in 25 years, and after Beijing issued stern warnings that it would take
+                  countermeasures in retaliation.
+                </p>
+              </div>
               {/* <p
                             style={{
                                 fontSize: '14px'
@@ -184,9 +195,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--m-Main)'
+                                    color: 'var(--light-primary-normal)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -195,9 +206,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--m-Main)'
+                                    color: 'var(--light-primary-normal)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -206,8 +217,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
-                                    backgroundColor: 'var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
+                                    backgroundColor: 'var(--light-primary-normal)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -219,9 +230,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--m-Main)'
+                                    color: 'var(--light-primary-normal)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -230,9 +241,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--m-Main)'
+                                    color: 'var(--light-primary-normal)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -241,8 +252,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
-                                    backgroundColor: 'var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
+                                    backgroundColor: 'var(--light-primary-normal)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
@@ -254,9 +265,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
                                     backgroundColor: '#ffffff',
-                                    color: 'var(--m-Main)'
+                                    color: 'var(--light-primary-normal)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -265,9 +276,9 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
                                     backgroundColor: '#272727',
-                                    color: 'var(--m-Main)'
+                                    color: 'var(--light-primary-normal)'
                                 }}>
                                 가나다라마바사아자차카타파하</p>
                             <p
@@ -276,8 +287,8 @@ function ComponentsPage() {
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
-                                    border: '1px solid var(--m-Main)',
-                                    backgroundColor: 'var(--m-Main)',
+                                    border: '1px solid var(--light-primary-normal)',
+                                    backgroundColor: 'var(--light-primary-normal)',
                                     color: '#ffffff'
                                 }}>
                                 가나다라마바사아자차카타파하</p>

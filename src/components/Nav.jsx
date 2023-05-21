@@ -8,7 +8,7 @@ import NavMobile from "../components/NavMobile";
 
 function getLinkStyle({ isActive }) {
   return {
-    color: isActive ? "var(--gray900)" : "",
+    color: isActive ? "var(--gray-900)" : "",
   };
 }
 

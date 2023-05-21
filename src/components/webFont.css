@@ -1,88 +1,86 @@
 /** Noto Sans(Google Fonts) */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap");
 
-/** Pretendard(font file) */
+/** PretendardVariable(font file) */
 
 @font-face {
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 900;
   font-display: swap;
-  src: local("Pretendard Black"),
-    url("../components/font/woff2/Pretendard-Black.woff2") format("woff2"),
-    url("../components/font/woff/Pretendard-Black.woff") format("woff");
+  src: local("PretendardVariable Black"),
+    url("../components/font/woff2/PretendardVariable.woff2") format("woff2");
 }
 
 /* @font-face {
-	font-family: 'Pretendard';
+	font-family: 'PretendardVariable';
 	font-weight: 800;
 	font-display: swap;
-	src: local('Pretendard ExtraBold'), url('../components/font/woff2/Pretendard-ExtraBold.woff2') format('woff2'), url('../components/font/woff/Pretendard-ExtraBold.woff') format('woff');
+	src: local('PretendardVariable ExtraBold'), url('../components/font/woff2/PretendardVariable-ExtraBold.woff2') format('woff2');
 } */
 
 @font-face {
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 700;
   font-display: swap;
-  src: local("Pretendard Bold"),
-    url("../components/font/woff2/Pretendard-Bold.woff2") format("woff2"),
-    url("../components/font/woff/Pretendard-Bold.woff") format("woff");
+  src: local("PretendardVariable Bold"),
+    url("../components/font/woff2/PretendardVariable.woff2") format("woff2");
 }
 
 /* @font-face {
-	font-family: 'Pretendard';
+	font-family: 'PretendardVariable';
 	font-weight: 600;
 	font-display: swap;
-	src: local('Pretendard SemiBold'), url('../components/font/woff2/Pretendard-SemiBold.woff2') format('woff2'), url('../components/font/woff/Pretendard-SemiBold.woff') format('woff');
+	src: local('PretendardVariable SemiBold');
 } */
 
 @font-face {
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 500;
   font-display: swap;
-  src: local("Pretendard Medium"),
-    url("../components/font/woff2/Pretendard-Medium.woff2") format("woff2"),
-    url("../components/font/woff/Pretendard-Medium.woff") format("woff");
+  src: local("PretendardVariable Medium"),
+    url("../components/font/woff2/PretendardVariable.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 400;
   font-display: swap;
-  src: local("Pretendard Regular"),
-    url("../components/font/woff2/Pretendard-Regular.woff2") format("woff2"),
-    url("../components/font/woff/Pretendard-Regular.woff") format("woff");
+  src: local("PretendardVariable Regular"),
+    url("../components/font/woff2/PretendardVariable.woff2") format("woff2");
 }
 
 /* @font-face {
-	font-family: 'Pretendard';
+	font-family: 'PretendardVariable';
 	font-weight: 300;
 	font-display: swap;
-	src: local('Pretendard Light'), url('../components/font/woff2/Pretendard-Light.woff2') format('woff2'), url('../components/font/woff/Pretendard-Light.woff') format('woff');
+	src: local('PretendardVariable Light'), url('../components/font/woff2/PretendardVariable-Light.woff2') format('woff2');
 } */
 
 /* @font-face {
-	font-family: 'Pretendard';
+	font-family: 'PretendardVariable';
 	font-weight: 200;
 	font-display: swap;
-	src: local('Pretendard ExtraLight'), url('../components/font/woff2/Pretendard-ExtraLight.woff2') format('woff2'), url('../components/font/woff/Pretendard-ExtraLight.woff') format('woff');
+	src: local('PretendardVariable ExtraLight'), url('../components/font/woff2/PretendardVariable-ExtraLight.woff2') format('woff2');
 } */
 
 /* @font-face {
-	font-family: 'Pretendard';
+	font-family: 'PretendardVariable';
 	font-weight: 100;
 	font-display: swap;
-	src: local('Pretendard Thin'), url('../components/font/woff2/Pretendard-Thin.woff2') format('woff2'), url('../components/font/woff/Pretendard-Thin.woff') format('woff');
+	src: local('PretendardVariable Thin'), url('../components/font/woff2/PretendardVariable-Thin.woff2') format('woff2');
 } */
 
 :root {
-  --pretendard: "Pretendard";
-  --font: "Pretendard", -apple-system, "Noto Sans KR", sans-serif;
+  --PretendardVariable: "PretendardVariable";
+  --font: "PretendardVariable Variable", PretendardVariable, -apple-system, BlinkMacSystemFont,
+    system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 html {
   font-family: var(--font);
   font-weight: 500;
-  color: var(--gray900);
+  color: var(--gray-900);
 }
 
 a,
@@ -101,7 +99,7 @@ strong {
 
 /* Title */
 .title40x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 2.5rem;
   font-weight: 900;
   font-stretch: normal;
@@ -111,7 +109,7 @@ strong {
 }
 
 .title32x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 2rem;
   font-weight: 900;
   font-stretch: normal;
@@ -121,7 +119,7 @@ strong {
 }
 
 .title24x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.5rem;
   font-weight: 900;
   font-stretch: normal;
@@ -131,7 +129,7 @@ strong {
 }
 
 .title20x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.25rem;
   font-weight: 900;
   font-stretch: normal;
@@ -141,7 +139,7 @@ strong {
 }
 
 .title18x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.125rem;
   font-weight: 900;
   font-stretch: normal;
@@ -151,7 +149,7 @@ strong {
 }
 
 .title16x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1rem;
   font-weight: 900;
   font-stretch: normal;
@@ -161,7 +159,7 @@ strong {
 }
 
 .title14x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.875rem;
   font-weight: 900;
   font-stretch: normal;
@@ -172,7 +170,7 @@ strong {
 
 /* Body */
 .bodyB24x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.5rem;
   font-weight: 700;
   font-stretch: normal;
@@ -182,7 +180,7 @@ strong {
 }
 
 .body24x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.5rem;
   font-weight: 400;
   font-stretch: normal;
@@ -192,7 +190,7 @@ strong {
 }
 
 .bodyB20x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.25rem;
   font-weight: 700;
   font-stretch: normal;
@@ -202,7 +200,7 @@ strong {
 }
 
 .body20x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.25rem;
   font-weight: 400;
   font-stretch: normal;
@@ -212,7 +210,7 @@ strong {
 }
 
 .bodyB18x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.125rem;
   font-weight: 700;
   font-stretch: normal;
@@ -222,7 +220,7 @@ strong {
 }
 
 .body18x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1.125rem;
   font-weight: 400;
   font-stretch: normal;
@@ -232,7 +230,7 @@ strong {
 }
 
 .bodyB16x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1rem;
   font-weight: 700;
   font-stretch: normal;
@@ -242,7 +240,7 @@ strong {
 }
 
 .body16x_story {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1rem;
   font-weight: 400;
   font-stretch: normal;
@@ -252,7 +250,7 @@ strong {
 }
 
 .body16x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1rem;
   font-weight: 400;
   font-stretch: normal;
@@ -262,7 +260,7 @@ strong {
 }
 
 .bodyB14x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.875rem;
   font-weight: 700;
   font-stretch: normal;
@@ -272,7 +270,7 @@ strong {
 }
 
 .body14x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.875rem;
   font-weight: 400;
   font-stretch: normal;
@@ -282,7 +280,7 @@ strong {
 }
 
 .bodyB12x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.75rem;
   font-weight: 700;
   font-stretch: normal;
@@ -292,7 +290,7 @@ strong {
 }
 
 .body12x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.75rem;
   font-weight: 400;
   font-stretch: normal;
@@ -302,7 +300,7 @@ strong {
 }
 
 .body12x_discounted-price {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.75rem;
   font-weight: 400;
   font-stretch: normal;
@@ -314,7 +312,7 @@ strong {
 
 /* Tag */
 .tag14x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.875rem;
   font-weight: 500;
   font-stretch: normal;
@@ -324,7 +322,7 @@ strong {
 }
 
 .tag12x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.75rem;
   font-weight: 500;
   font-stretch: normal;
@@ -334,7 +332,7 @@ strong {
 }
 
 .tag10x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.625rem;
   font-weight: 500;
   font-stretch: normal;
@@ -345,7 +343,7 @@ strong {
 
 /* Checkbox */
 .checkbox16x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1rem;
   font-weight: 500;
   font-stretch: normal;
@@ -355,7 +353,7 @@ strong {
 }
 
 .checkbox14x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.875rem;
   font-weight: 500;
   font-stretch: normal;
@@ -366,7 +364,7 @@ strong {
 
 /* Text-fields */
 .fieldB16x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1rem;
   font-weight: 700;
   font-stretch: normal;
@@ -376,7 +374,7 @@ strong {
 }
 
 .field16x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1rem;
   font-weight: 400;
   font-stretch: normal;
@@ -386,7 +384,7 @@ strong {
 }
 
 .field12x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.75rem;
   font-weight: 400;
   font-stretch: normal;
@@ -396,7 +394,7 @@ strong {
 }
 
 .field10x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.625rem;
   font-weight: 400;
   font-stretch: normal;
@@ -407,7 +405,7 @@ strong {
 
 /* Button */
 .button16x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 1rem;
   font-weight: 700;
   font-stretch: normal;
@@ -417,7 +415,7 @@ strong {
 }
 
 .button14x {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.875rem;
   font-weight: 700;
   font-stretch: normal;
@@ -427,7 +425,7 @@ strong {
 }
 
 .caption {
-  font-family: var(--Pretendard);
+  font-family: var(--PretendardVariable);
   font-size: 0.75rem;
   font-weight: 500;
   font-stretch: normal;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const textStyles = StyleSheet.create({
   title40: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 40,
     fontWeight: "700",
     fontStyle: "normal",
@@ -10,7 +10,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   title32: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 32,
     fontWeight: "700",
     fontStyle: "normal",
@@ -18,7 +18,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   title24: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 24,
     fontWeight: "700",
     fontStyle: "normal",
@@ -26,7 +26,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   textB24: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 24,
     fontWeight: "700",
     fontStyle: "normal",
@@ -34,7 +34,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   text24: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 24,
     fontWeight: "400",
     fontStyle: "normal",
@@ -42,7 +42,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   title20: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 20,
     fontWeight: "700",
     fontStyle: "normal",
@@ -50,7 +50,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   textB20: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 20,
     fontWeight: "700",
     fontStyle: "normal",
@@ -58,7 +58,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   text20: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 20,
     fontWeight: "400",
     fontStyle: "normal",
@@ -66,7 +66,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   title18: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 18,
     fontWeight: "700",
     fontStyle: "normal",
@@ -74,7 +74,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   textB18: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 18,
     fontWeight: "700",
     fontStyle: "normal",
@@ -82,7 +82,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   text18: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 18,
     fontWeight: "400",
     fontStyle: "normal",
@@ -90,7 +90,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   title16: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 16,
     fontWeight: "700",
     fontStyle: "normal",
@@ -98,7 +98,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   botton16: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 16,
     fontWeight: "700",
     fontStyle: "normal",
@@ -106,7 +106,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   textB16: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 16,
     fontWeight: "700",
     fontStyle: "normal",
@@ -114,7 +114,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   checkbox16: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 16,
     fontWeight: "500",
     fontStyle: "normal",
@@ -122,7 +122,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   text16_STORY: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 16,
     fontWeight: "400",
     fontStyle: "normal",
@@ -130,7 +130,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   text16: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 16,
     fontWeight: "400",
     fontStyle: "normal",
@@ -138,7 +138,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   title14: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 14,
     fontWeight: "700",
     fontStyle: "normal",
@@ -146,7 +146,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   BUTTON_BUTTON_14: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 14,
     fontWeight: "700",
     fontStyle: "normal",
@@ -154,7 +154,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   textB14: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 14,
     fontWeight: "700",
     fontStyle: "normal",
@@ -162,7 +162,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   tag14: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 14,
     fontWeight: "500",
     fontStyle: "normal",
@@ -170,7 +170,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   checkbox14: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 14,
     fontWeight: "500",
     fontStyle: "normal",
@@ -178,7 +178,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   text14: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 14,
     fontWeight: "400",
     fontStyle: "normal",
@@ -186,7 +186,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   textB12: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 12,
     fontWeight: "700",
     fontStyle: "normal",
@@ -194,7 +194,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   text12: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 12,
     fontWeight: "400",
     fontStyle: "normal",
@@ -202,7 +202,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   text12_discountedPrice: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 12,
     fontWeight: "400",
     fontStyle: "normal",
@@ -212,7 +212,7 @@ const textStyles = StyleSheet.create({
 
   // caption
   caption: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 12,
     fontWeight: "500",
     fontStyle: "normal",
@@ -222,7 +222,7 @@ const textStyles = StyleSheet.create({
 
   // tag
   tag12: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 12,
     fontWeight: "500",
     fontStyle: "normal",
@@ -230,7 +230,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   tag10: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 10,
     fontWeight: "500",
     fontStyle: "normal",
@@ -240,7 +240,7 @@ const textStyles = StyleSheet.create({
 
   // fields
   fieldsB16: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 16,
     fontWeight: "700",
     fontStyle: "normal",
@@ -248,7 +248,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   fields16: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 16,
     fontWeight: "400",
     fontStyle: "normal",
@@ -256,7 +256,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   fields12: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 12,
     fontWeight: "400",
     fontStyle: "normal",
@@ -264,7 +264,7 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
   },
   fields10: {
-    fontFamily: "Pretendard",
+    fontFamily: "PretendardVariable",
     fontSize: 10,
     fontWeight: "400",
     fontStyle: "normal",

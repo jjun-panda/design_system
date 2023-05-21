@@ -73,12 +73,13 @@ function FoundationsTypography() {
             <div>
               <p className={classNames(styles.textMain, "bodyB24x")}>01. JJUN Creative Web Fonts</p>
               <p className={classNames(styles.textBody, "body16x")}>
-                기본적으로 `pretendard` 를 사용하며, 한/영 통일된 텍스트 타입을 활용하고 있습니다.
-                JJUN Creative 웹사이트는 ‘pretendard’서체를 기준으로 `Pretendard R` `Pretendard M`
-                `Pretendard B` 서체를 공식서체로 지정합니다.
+                기본적으로 `PretendardVariable` 를 사용하며, 한/영 통일된 텍스트 타입을 활용하고
+                있습니다. JJUN Creative 웹사이트는 ‘PretendardVariable’서체를 기준으로
+                `PretendardVariable R` `PretendardVariable M` `PretendardVariable B` 서체를
+                공식서체로 지정합니다.
                 <br /> 웹접근성기준에 의하여 최소 1.5이상 1.75 권장합니다.
               </p>
-              <a href={fontFile} download="Pretendard_1.3.6.zip">
+              <a href={fontFile} download="PretendardVariable_1.3.6.zip">
                 <Button size="Medium">Download Fonts</Button>
               </a>
             </div>

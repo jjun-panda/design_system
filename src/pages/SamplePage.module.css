@@ -7,7 +7,7 @@
 }
 
 .f24 {
-  background-color: var(--gray900);
+  background-color: var(--gray-900);
   color: var(--white);
   padding: 8px 16px;
   display: flex;
@@ -17,7 +17,7 @@
 
 .f24 > div {
   font-size: 1.5rem;
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 400;
   display: flex;
 }
@@ -28,28 +28,28 @@
 
 .web > .bad {
   background-color: #ff2323;
-  color: var(--gray900);
+  color: var(--gray-900);
   padding: 4px;
   border-radius: 4px;
 }
 
 .web > .notbad {
   background-color: #ffa723;
-  color: var(--gray900);
+  color: var(--gray-900);
   padding: 4px;
   border-radius: 4px;
 }
 
 .web > .good {
   background-color: #2382ff;
-  color: var(--gray900);
+  color: var(--gray-900);
   padding: 4px;
   border-radius: 4px;
 }
 
 .web > .best {
   background-color: #23ff77;
-  color: var(--gray900);
+  color: var(--gray-900);
   padding: 4px;
   border-radius: 4px;
 }
@@ -89,7 +89,7 @@ button:last-child {
 .color_list .name {
   padding-left: 8px;
   margin: 32px 0;
-  /* border-top: 2px dotted var(--gray300); */
+  /* border-top: 2px dotted var(--gray-300); */
 }
 
 /* 라디오버튼1 */
@@ -102,7 +102,7 @@ button:last-child {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  border: 2px solid var(--gray200);
+  border: 2px solid var(--gray-200);
   border-radius: 20px;
   position: relative;
   box-sizing: border-box;
@@ -115,7 +115,7 @@ button:last-child {
   height: 20px;
   border: 0;
   border-radius: 20px;
-  background-color: var(--m-Main);
+  background-color: var(--light-primary-normal);
   position: relative;
   box-sizing: border-box;
 }
@@ -144,9 +144,9 @@ button:last-child {
   vertical-align: middle;
   font-size: 1rem;
   line-height: 20px;
-  color: var(--gray900);
+  color: var(--gray-900);
   margin-left: 4px;
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 500;
 }
 
@@ -160,7 +160,7 @@ button:last-child {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  border: 2px solid var(--gray200);
+  border: 2px solid var(--gray-200);
   border-radius: 20px;
   position: relative;
   box-sizing: border-box;
@@ -173,7 +173,7 @@ button:last-child {
   height: 20px;
   border: 0;
   border-radius: 20px;
-  background-color: var(--m-Main);
+  background-color: var(--light-primary-normal);
   position: relative;
   box-sizing: border-box;
 }
@@ -202,9 +202,9 @@ button:last-child {
   vertical-align: middle;
   font-size: 0.875rem;
   line-height: 20px;
-  color: var(--gray900);
+  color: var(--gray-900);
   margin-left: 4px;
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 500;
 }
 
@@ -219,7 +219,7 @@ button:last-child {
   width: 20px;
   height: 20px;
   border-radius: 4px;
-  border: 2px solid var(--gray200);
+  border: 2px solid var(--gray-200);
   position: relative;
   background: var(--white);
   cursor: pointer;
@@ -245,15 +245,15 @@ button:last-child {
   vertical-align: middle;
   font-size: 1rem;
   line-height: 20px;
-  color: var(--gray900);
+  color: var(--gray-900);
   margin-left: 4px;
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 500;
 }
 
 .checkbox100c09f:checked + em {
-  background: var(--m-Main);
-  border: var(--m-Main);
+  background: var(--light-primary-normal);
+  border: var(--light-primary-normal);
 }
 
 .checkbox100c09f:checked + em:before {
@@ -272,7 +272,7 @@ button:last-child {
   width: 20px;
   height: 20px;
   border-radius: 4px;
-  border: 2px solid var(--gray200);
+  border: 2px solid var(--gray-200);
   position: relative;
   background: var(--white);
   cursor: pointer;
@@ -298,15 +298,15 @@ button:last-child {
   vertical-align: middle;
   font-size: 0.875rem;
   line-height: 18px;
-  color: var(--gray900);
+  color: var(--gray-900);
   margin-left: 4px;
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 500;
 }
 
 .checkbox200c09f:checked + em {
-  background: var(--m-Main);
-  border: var(--m-Main);
+  background: var(--light-primary-normal);
+  border: var(--light-primary-normal);
 }
 
 .checkbox200c09f:checked + em:before {
@@ -324,9 +324,9 @@ button:last-child {
   vertical-align: middle;
   font-size: 1rem;
   line-height: 20px;
-  color: var(--gray900);
+  color: var(--gray-900);
   margin-left: 4px;
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 500;
 }
 
@@ -335,8 +335,8 @@ button:last-child {
   vertical-align: middle;
   width: 48px;
   height: 16px;
-  /* border: 2px solid var(--gray400); */
-  background-color: var(--gray400);
+  /* border: 2px solid var(--gray-400); */
+  background-color: var(--gray-400);
   position: relative;
   border-radius: 50px;
   transition: all 0.3s ease;
@@ -351,20 +351,20 @@ button:last-child {
   display: inline-block;
   height: 24px;
   border-radius: 100%;
-  border: 2px solid var(--gray400);
+  border: 2px solid var(--gray-400);
   background: var(--white);
   transition: all 0.5s ease;
 }
 
 .toggle00c09f:checked + div em {
   border: none;
-  background-color: var(--m-Main);
+  background-color: var(--light-primary-normal);
 }
 
 .toggle00c09f:checked + div em:before {
   left: 24px;
   background: var(--white);
-  border: 2px solid var(--m-Main);
+  border: 2px solid var(--light-primary-normal);
 }
 
 /* Button */
@@ -372,9 +372,9 @@ button:last-child {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  background: var(--m-Main);
+  background: var(--light-primary-normal);
   color: var(--white);
-  font-family: "Pretendard";
+  font-family: "PretendardVariable";
   font-weight: 700;
   border-radius: 4px;
   border: 0;
@@ -409,12 +409,12 @@ button:last-child {
 
 .btntype100c09f:active {
   background: #e9f0fc;
-  color: var(--m-Main);
+  color: var(--light-primary-normal);
 }
 
 .btntype100c09f:disabled {
-  background: var(--gray300);
-  color: var(--gray200);
+  background: var(--gray-300);
+  color: var(--gray-200);
   cursor: not-allowed;
 }
 
@@ -423,13 +423,13 @@ button:last-child {
   vertical-align: middle;
   text-align: center;
   background: var(--white);
-  color: var(--m-Main);
-  font-family: "Pretendard";
+  color: var(--light-primary-normal);
+  font-family: "PretendardVariable";
   font-weight: 700;
   border-radius: 4px;
-  border-color: var(--m-Main);
-  border-inline: 1px solid var(--m-Main);
-  border: 1px solid var(--m-Main);
+  border-color: var(--light-primary-normal);
+  border-inline: 1px solid var(--light-primary-normal);
+  border: 1px solid var(--light-primary-normal);
   cursor: pointer;
   transition: all 0.3s ease;
   box-sizing: border-box;
@@ -464,14 +464,14 @@ button:last-child {
 
 .btntype200c09f:active {
   background: #e9f0fc;
-  color: var(--m-Main);
+  color: var(--light-primary-normal);
   border: 1px solid #e9f0fc;
 }
 
 .btntype200c09f:disabled {
   background: var(--white);
-  color: var(--gray300);
-  border: 1px solid var(--gray300);
+  color: var(--gray-300);
+  border: 1px solid var(--gray-300);
   cursor: not-allowed;
 }
 
@@ -482,8 +482,8 @@ button:last-child {
 .manulist ul {
   max-width: 50%;
   display: flex;
-  border-top: 1px solid var(--gray200);
-  border-bottom: 1px solid var(--gray200);
+  border-top: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
 }
 
 .manulist ul li {
@@ -502,18 +502,18 @@ button:last-child {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 500;
-  color: var(--gray700);
+  color: var(--gray-700);
   text-decoration-line: none;
 }
 
 .manulist ul li:hover {
-  background-color: #e0f5ee;
+  background-color: var(--light-interaction-primary-hover);
   transition: all 0.3s;
 }
 
 .manulist ul li a.check {
   color: var(--white);
-  background-color: var(--m-Main);
+  background-color: var(--light-primary-normal);
   font-weight: 700;
 }
 

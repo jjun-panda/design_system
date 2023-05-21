@@ -42,7 +42,7 @@ const HEIGHTSIZES = {
 };
 
 const Button = styled.button`
-  background-color: var(--m-Main);
+  background-color: var(--light-primary-normal);
   border: none;
   border-radius: ${({ round }) => (round ? `9999px` : `4px`)};
   color: var(--white);
@@ -57,7 +57,7 @@ const Button = styled.button`
 
   &:hover,
   &:active {
-    background-color: var(--m-seb);
+    background-color: var(--light-primary-strong);
   }
 `;
 

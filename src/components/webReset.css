@@ -127,15 +127,15 @@ hr {
   margin: 64px 0;
   border: 0;
   height: 1px;
-  background-color: var(--gray200);
+  background-color: var(--gray-200);
 }
 
 mark {
-  background: var(--m-Main);
+  background: var(--light-primary-normal);
   color: var(--white);
 }
 ::selection {
-  background: var(--m-Main);
+  background: var(--light-primary-normal);
   color: var(--white);
 }
 
@@ -147,7 +147,7 @@ pre {
 }
 
 code {
-  color: var(--gray400);
+  color: var(--gray-400);
 }
 
 .mobile {

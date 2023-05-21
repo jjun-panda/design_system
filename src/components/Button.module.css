@@ -4,7 +4,7 @@
   font-weight: 700;
   color: var(--White);
   cursor: pointer;
-  background-color: var(--m-Main);
+  background-color: var(--light-primary-normal);
   border: none;
   border-radius: 4px;
   outline: none;
