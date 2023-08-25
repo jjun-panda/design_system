@@ -1,11 +1,10 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import styles from "./App.module.css";
-import "./webFont.css";
-import "./webColor.css";
-import "./webReset.css";
-
-// import styled, { CSS } from "styled-components";
+// import "./webFont.css";
+// import "./webColor.css";
+// import "./webReset.css";
+import "../utils/css/common.css"
 
 function App({ children }) {
   return (

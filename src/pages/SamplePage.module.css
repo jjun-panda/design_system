@@ -1,5 +1,5 @@
 .topics {
-  margin: 96px auto 80px;
+  margin: 96px auto 5rem;
 }
 
 .mm {
@@ -7,7 +7,7 @@
 }
 
 .f24 {
-  background-color: var(--gray-900);
+  background-color: var(--light-text-normal);
   color: var(--white);
   padding: 8px 16px;
   display: flex;
@@ -28,30 +28,30 @@
 
 .web > .bad {
   background-color: #ff2323;
-  color: var(--gray-900);
-  padding: 4px;
-  border-radius: 4px;
+  color: var(--light-text-normal);
+  padding: .25rem;
+  border-radius: .25rem;
 }
 
 .web > .notbad {
   background-color: #ffa723;
-  color: var(--gray-900);
-  padding: 4px;
-  border-radius: 4px;
+  color: var(--light-text-normal);
+  padding: .25rem;
+  border-radius: .25rem;
 }
 
 .web > .good {
   background-color: #2382ff;
-  color: var(--gray-900);
-  padding: 4px;
-  border-radius: 4px;
+  color: var(--light-text-normal);
+  padding: .25rem;
+  border-radius: .25rem;
 }
 
 .web > .best {
   background-color: #23ff77;
-  color: var(--gray-900);
-  padding: 4px;
-  border-radius: 4px;
+  color: var(--light-text-normal);
+  padding: .25rem;
+  border-radius: .25rem;
 }
 
 body,
@@ -79,7 +79,7 @@ button:last-child {
 
 .size {
   max-width: 1200px;
-  margin: 80px auto;
+  margin: 5rem auto;
 }
 
 .color_list {
@@ -89,7 +89,7 @@ button:last-child {
 .color_list .name {
   padding-left: 8px;
   margin: 32px 0;
-  /* border-top: 2px dotted var(--gray-300); */
+  /* border-top: 2px dotted var(--light-text-dlsable); */
 }
 
 /* 라디오버튼1 */
@@ -102,7 +102,7 @@ button:last-child {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  border: 2px solid var(--gray-200);
+  border: 2px solid var(--light-line-normal);
   border-radius: 20px;
   position: relative;
   box-sizing: border-box;
@@ -144,8 +144,8 @@ button:last-child {
   vertical-align: middle;
   font-size: 1rem;
   line-height: 20px;
-  color: var(--gray-900);
-  margin-left: 4px;
+  color: var(--light-text-normal);
+  margin-left: .25rem;
   font-family: "PretendardVariable";
   font-weight: 500;
 }
@@ -160,7 +160,7 @@ button:last-child {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  border: 2px solid var(--gray-200);
+  border: 2px solid var(--light-line-normal);
   border-radius: 20px;
   position: relative;
   box-sizing: border-box;
@@ -202,8 +202,8 @@ button:last-child {
   vertical-align: middle;
   font-size: 0.875rem;
   line-height: 20px;
-  color: var(--gray-900);
-  margin-left: 4px;
+  color: var(--light-text-normal);
+  margin-left: .25rem;
   font-family: "PretendardVariable";
   font-weight: 500;
 }
@@ -218,8 +218,8 @@ button:last-child {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  border-radius: 4px;
-  border: 2px solid var(--gray-200);
+  border-radius: .25rem;
+  border: 2px solid var(--light-line-normal);
   position: relative;
   background: var(--white);
   cursor: pointer;
@@ -245,8 +245,8 @@ button:last-child {
   vertical-align: middle;
   font-size: 1rem;
   line-height: 20px;
-  color: var(--gray-900);
-  margin-left: 4px;
+  color: var(--light-text-normal);
+  margin-left: .25rem;
   font-family: "PretendardVariable";
   font-weight: 500;
 }
@@ -271,8 +271,8 @@ button:last-child {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  border-radius: 4px;
-  border: 2px solid var(--gray-200);
+  border-radius: .25rem;
+  border: 2px solid var(--light-line-normal);
   position: relative;
   background: var(--white);
   cursor: pointer;
@@ -298,8 +298,8 @@ button:last-child {
   vertical-align: middle;
   font-size: 0.875rem;
   line-height: 18px;
-  color: var(--gray-900);
-  margin-left: 4px;
+  color: var(--light-text-normal);
+  margin-left: .25rem;
   font-family: "PretendardVariable";
   font-weight: 500;
 }
@@ -324,8 +324,8 @@ button:last-child {
   vertical-align: middle;
   font-size: 1rem;
   line-height: 20px;
-  color: var(--gray-900);
-  margin-left: 4px;
+  color: var(--light-text-normal);
+  margin-left: .25rem;
   font-family: "PretendardVariable";
   font-weight: 500;
 }
@@ -335,8 +335,8 @@ button:last-child {
   vertical-align: middle;
   width: 48px;
   height: 16px;
-  /* border: 2px solid var(--gray-400); */
-  background-color: var(--gray-400);
+  /* border: 2px solid var(--light-line-strong); */
+  background-color: var(--light-text-dlsable);
   position: relative;
   border-radius: 50px;
   transition: all 0.3s ease;
@@ -347,11 +347,11 @@ button:last-child {
   position: absolute;
   left: 0;
   top: -6px;
-  width: 24px;
+  width: 1.5rem;
   display: inline-block;
-  height: 24px;
+  height: 1.5rem;
   border-radius: 100%;
-  border: 2px solid var(--gray-400);
+  border: 2px solid var(--light-line-strong);
   background: var(--white);
   transition: all 0.5s ease;
 }
@@ -362,7 +362,7 @@ button:last-child {
 }
 
 .toggle00c09f:checked + div em:before {
-  left: 24px;
+  left: 1.5rem;
   background: var(--white);
   border: 2px solid var(--light-primary-normal);
 }
@@ -376,7 +376,7 @@ button:last-child {
   color: var(--white);
   font-family: "PretendardVariable";
   font-weight: 700;
-  border-radius: 4px;
+  border-radius: .25rem;
   border: 0;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -384,14 +384,14 @@ button:last-child {
 
 .btntype100c09f.basic {
   font-size: 1rem;
-  line-height: 24px;
+  line-height: 1.5rem;
   padding: 0 16px;
   height: 56px;
 }
 
 .btntype100c09f.Medium {
   font-size: 1rem;
-  line-height: 24px;
+  line-height: 1.5rem;
   padding: 0 16px;
   height: 48px;
 }
@@ -413,8 +413,8 @@ button:last-child {
 }
 
 .btntype100c09f:disabled {
-  background: var(--gray-300);
-  color: var(--gray-200);
+  background: var(--light-text-dlsable);
+  color: var(--light-line-normal);
   cursor: not-allowed;
 }
 
@@ -426,7 +426,7 @@ button:last-child {
   color: var(--light-primary-normal);
   font-family: "PretendardVariable";
   font-weight: 700;
-  border-radius: 4px;
+  border-radius: .25rem;
   border-color: var(--light-primary-normal);
   border-inline: 1px solid var(--light-primary-normal);
   border: 1px solid var(--light-primary-normal);
@@ -437,14 +437,14 @@ button:last-child {
 
 .btntype200c09f.basic {
   font-size: 1rem;
-  line-height: 24px;
+  line-height: 1.5rem;
   padding: 0 16px;
   height: 56px;
 }
 
 .btntype200c09f.Medium {
   font-size: 1rem;
-  line-height: 24px;
+  line-height: 1.5rem;
   padding: 0 16px;
   height: 48px;
 }
@@ -470,8 +470,8 @@ button:last-child {
 
 .btntype200c09f:disabled {
   background: var(--white);
-  color: var(--gray-300);
-  border: 1px solid var(--gray-300);
+  color: var(--light-text-dlsable);
+  border: 1px solid var(--light-text-dlsable);
   cursor: not-allowed;
 }
 
@@ -482,8 +482,8 @@ button:last-child {
 .manulist ul {
   max-width: 50%;
   display: flex;
-  border-top: 1px solid var(--gray-200);
-  border-bottom: 1px solid var(--gray-200);
+  border-top: 1px solid var(--light-line-normal);
+  border-bottom: 1px solid var(--light-line-normal);
 }
 
 .manulist ul li {
@@ -502,7 +502,7 @@ button:last-child {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 500;
-  color: var(--gray-700);
+  color: var(--light-text-alternative);
   text-decoration-line: none;
 }
 

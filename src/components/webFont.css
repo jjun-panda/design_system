@@ -80,7 +80,7 @@
 html {
   font-family: var(--font);
   font-weight: 500;
-  color: var(--gray-900);
+  color: var(--light-text-normal);
 }
 
 a,

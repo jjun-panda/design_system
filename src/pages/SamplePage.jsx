@@ -101,7 +101,7 @@ function ComponentsPage() {
                 </p>
                 <p className="title24x">
                   <span>타이틀</span>
-                  24px 1.25 Bold
+                  1.5rem 1.25 Bold
                 </p>
                 <p className="title20x">
                   <span>타이틀</span>
@@ -117,7 +117,7 @@ function ComponentsPage() {
                 </p>
                 <p className="title14x">
                   <span>소소제목</span>
-                  14px 1.25 Bold
+                  1.25rem 1.25 Bold
                 </p>
                 <p className="body16x">
                   <span>본문</span>
@@ -141,24 +141,24 @@ function ComponentsPage() {
               </div>
               {/* <p
                             style={{
-                                fontSize: '14px'
+                                fontSize: '1.25rem'
                             }}>
                             <span>소본문강조</span>
-                            14px 1.5 Bold
+                            1.25rem 1.5 Bold
                         </p>
                         <p
                             style={{
-                                fontSize: '14px'
+                                fontSize: '1.25rem'
                             }}>
                             <span>출처</span>
-                            14px 1.5 Medium
+                            1.25rem 1.5 Medium
                         </p>
                         <p
                             style={{
-                                fontSize: '14px'
+                                fontSize: '1.25rem'
                             }}>
                             <span>소본문</span>
-                            14px 1.5 Regular
+                            1.25rem 1.5 Regular
                         </p>
                         <p
                             style={{
@@ -191,7 +191,7 @@ function ComponentsPage() {
               {/* <div>
                             <p
                                 style={{
-                                    fontSize: '24px',
+                                    fontSize: '1.5rem',
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
@@ -202,7 +202,7 @@ function ComponentsPage() {
                                 가나다라마바사아자차카타파하</p>
                             <p
                                 style={{
-                                    fontSize: '24px',
+                                    fontSize: '1.5rem',
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
@@ -213,7 +213,7 @@ function ComponentsPage() {
                                 가나다라마바사아자차카타파하</p>
                             <p
                                 style={{
-                                    fontSize: '24px',
+                                    fontSize: '1.5rem',
                                     display: 'inline-block',
                                     margin: '8px 8px 0 0',
                                     padding: '8px 16px',
@@ -334,7 +334,7 @@ function ComponentsPage() {
                 defaultValue="off"
               />
               <em />
-              <span>라디오버튼_C 14px Medium</span>
+              <span>라디오버튼_C 1.25rem Medium</span>
             </label>
             <br className={styles.mm} />
             <label>
@@ -345,7 +345,7 @@ function ComponentsPage() {
                 defaultValue="off"
               />
               <em />
-              <span>라디오버튼_D 14px Medium</span>
+              <span>라디오버튼_D 1.25rem Medium</span>
             </label>
           </div>
           <div
@@ -363,7 +363,7 @@ function ComponentsPage() {
             <label>
               <input type="checkbox" className={styles.checkbox200c09f} />
               <em />
-              <span>체크박스_14px Medium</span>
+              <span>체크박스_1.25rem Medium</span>
             </label>
           </div>
           <div
@@ -397,10 +397,10 @@ function ComponentsPage() {
                     <button
                         className={classNames(styles.btntype100c09f, 'Medium')}
                         disabled="disabled">버튼M 16px H48</button>
-                    <button className={classNames(styles.btntype100c09f, 'small')}>버튼S 14px H40</button>
+                    <button className={classNames(styles.btntype100c09f, 'small')}>버튼S 1.25rem H40</button>
                     <button
                         className={classNames(styles.btntype100c09f, 'small')}
-                        disabled="disabled">버튼S 14px H40</button>
+                        disabled="disabled">버튼S 1.25rem H40</button>
                 </div> */}
           <div
             style={{
@@ -420,10 +420,10 @@ function ComponentsPage() {
                     <button
                         className={classNames(styles.btntype200c09f, 'Medium')}
                         disabled="disabled">버튼M 16px H48</button>
-                    <button className={classNames(styles.btntype200c09f, 'small')}>버튼S 14px H40</button>
+                    <button className={classNames(styles.btntype200c09f, 'small')}>버튼S 1.25rem H40</button>
                     <button
                         className={classNames(styles.btntype200c09f, 'small')}
-                        disabled="disabled">버튼S 14px H40</button> */}
+                        disabled="disabled">버튼S 1.25rem H40</button> */}
           </div>
         </div>
         <div className={styles.manulist}>

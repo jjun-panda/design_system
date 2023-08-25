@@ -45,7 +45,7 @@
 
 .menuWrapper:active,
 .menuWrapper:hover {
-  background-color: var(--gray-50);
+  background-color: var(--light-background-tertiary);
   transition: all 300ms;
 }
 
@@ -63,7 +63,7 @@ a.menu {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  color: var(--gray-900);
+  color: var(--light-text-normal);
   position: relative;
   border-radius: 8px;
   text-decoration: none;
@@ -97,7 +97,7 @@ a.checked {
 
 .callout {
   /* padding: 16px; */
-  background-color: var(--gray-50);
+  background-color: var(--light-background-tertiary);
   /* background-color: var(--light-primary-strong); */
   /* border-radius: 8px; */
   margin-top: 20px;

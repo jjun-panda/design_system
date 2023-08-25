@@ -1,14 +1,25 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./components/App";
-import HomePage from "./pages/HomePage";
+import ScrollTop from "./components/ScrollTop";
+import NotFoundPage from "./pages/NotFoundPage";
 
+// Pages
+import HomePage from "./pages/HomePage";
 import BrandPage from "./pages/BrandPage/BrandPage";
+import FoundationsPage from "./pages/FoundationsPage/FoundationsPage";
+import ComponentsPage from "./pages/ComponentsPage/ComponentsPage";
+import ContentsPage from "./pages/ContentsPage/ContentsPage";
+import ResourcesPage from "./pages/ResourcesPage/ResourcesPage";
+import WishlistPage from "./pages/WishlistPage";
+import SamplePage from "./pages/SamplePage";
+
+// Brand
 import BrandValues from "./pages/BrandPage/BrandValues";
 import BrandLogo from "./pages/BrandPage/BrandLogo";
 import BrandAppIcon from "./pages/BrandPage/BrandAppIcon";
 import BrandApplication from "./pages/BrandPage/BrandApplication";
 
-import FoundationsPage from "./pages/FoundationsPage/FoundationsPage";
+// Foundations
 import FoundationsColor from "./pages/FoundationsPage/FoundationsColor";
 import FoundationsTypography from "./pages/FoundationsPage/FoundationsTypography";
 import FoundationsIcon from "./pages/FoundationsPage/FoundationsIcon";
@@ -17,7 +28,7 @@ import FoundationsRadius from "./pages/FoundationsPage/FoundationsRadius";
 import FoundationsShadow from "./pages/FoundationsPage/FoundationsShadow";
 import FoundationsBorder from "./pages/FoundationsPage/FoundationsBorder";
 
-import ComponentsPage from "./pages/ComponentsPage/ComponentsPage";
+// Components
 import ComponentsButton from "./pages/ComponentsPage/ComponentsButton";
 import ComponentsTextField from "./pages/ComponentsPage/ComponentsTextField";
 import ComponentsSelectionControl from "./pages/ComponentsPage/ComponentsSelectionControl";
@@ -31,23 +42,63 @@ import ComponentsLoading from "./pages/ComponentsPage/ComponentsLoading";
 import ComponentsCarousel from "./pages/ComponentsPage/ComponentsCarousel";
 import ComponentsToast from "./pages/ComponentsPage/ComponentsToast";
 
-import ContentsPage from "./pages/ContentsPage/ContentsPage";
+// Contents
 import ContentThumbnail from "./pages/ContentsPage/ContentsThumbnail";
 import ContentBanner from "./pages/ContentsPage/ContentsBanner";
 import ContentHeader from "./pages/ContentsPage/ContentsHeader";
 import ContentFooter from "./pages/ContentsPage/ContentsFooter";
 
-import ResourcesPage from "./pages/ResourcesPage/ResourcesPage";
+// Resources
 import ResourcesDesignStory from "./pages/ResourcesPage/ResourcesDesignStory";
 import ResourcesBXguidelines from "./pages/ResourcesPage/ResourcesBXguidelines";
 import ResourcesUXUIguidelines from "./pages/ResourcesPage/ResourcesUXUIguidelines";
 
-import WishlistPage from "./pages/WishlistPage";
-import ScrollTop from "./components/ScrollTop";
-import SamplePage from "./pages/SamplePage";
+const routes = [
+  { path: "/", element: <HomePage /> },
+  { path: "brand", element: <BrandPage /> },
+  { path: "brand/values", element: <BrandValues /> },
+  { path: "brand/logo", element: <BrandLogo /> },
+  { path: "brand/appicon", element: <BrandAppIcon /> },
+  { path: "brand/application", element: <BrandApplication /> },
 
-// import { NotFound } from "react-admin";
-import NotFoundPage from "pages/NotFoundPage";
+  { path: "foundations", element: <FoundationsPage /> },
+  { path: "foundations/color", element: <FoundationsColor /> },
+  { path: "foundations/typography", element: <FoundationsTypography /> },
+  { path: "foundations/icon", element: <FoundationsIcon /> },
+  { path: "foundations/grid", element: <FoundationsGrid /> },
+  { path: "foundations/radius", element: <FoundationsRadius /> },
+  { path: "foundations/shadow", element: <FoundationsShadow /> },
+  { path: "foundations/border", element: <FoundationsBorder /> },
+
+  { path: "components", element: <ComponentsPage /> },
+  { path: "components/button", element: <ComponentsButton /> },
+  { path: "components/text-field", element: <ComponentsTextField /> },
+  { path: "components/selection-control", element: <ComponentsSelectionControl /> },
+  { path: "components/tab", element: <ComponentsTab /> },
+  { path: "components/badge-tag", element: <ComponentsBadgeTag /> },
+  { path: "components/tooltip", element: <ComponentsTooltip /> },
+  { path: "components/action-sheets", element: <ComponentsActionSheets /> },
+  { path: "components/navigation", element: <ComponentsNavigation /> },
+  { path: "components/modals", element: <ComponentsModals /> },
+  { path: "components/loading", element: <ComponentsLoading /> },
+  { path: "components/carousel", element: <ComponentsCarousel /> },
+  { path: "components/toast", element: <ComponentsToast /> },
+
+  { path: "contents", element: <ContentsPage /> },
+  { path: "contents/thumbnail", element: <ContentThumbnail /> },
+  { path: "contents/banner", element: <ContentBanner /> },
+  { path: "contents/header", element: <ContentHeader /> },
+  { path: "contents/footer", element: <ContentFooter /> },
+
+  { path: "resources", element: <ResourcesPage /> },
+  { path: "resources/design-story", element: <ResourcesDesignStory /> },
+  { path: "resources/bx-guidelines", element: <ResourcesBXguidelines /> },
+  { path: "resources/uxui-guidelines", element: <ResourcesUXUIguidelines /> },
+
+  { path: "sample", element: <SamplePage /> },
+  { path: "wishlist", element: <WishlistPage /> },
+  { path: "*", element: <NotFoundPage /> },
+];
 
 function Main() {
   return (
@@ -55,50 +106,9 @@ function Main() {
       <ScrollTop />
       <App>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="brand" element={<BrandPage />} />
-          <Route path="brand/values" element={<BrandValues />} />
-          <Route path="brand/logo" element={<BrandLogo />} />
-          <Route path="brand/appicon" element={<BrandAppIcon />} />
-          <Route path="brand/application" element={<BrandApplication />} />
-
-          <Route path="foundations" element={<FoundationsPage />} />
-          <Route path="foundations/color" element={<FoundationsColor />} />
-          <Route path="foundations/Typography" element={<FoundationsTypography />} />
-          <Route path="foundations/icon" element={<FoundationsIcon />} />
-          <Route path="foundations/grid" element={<FoundationsGrid />} />
-          <Route path="foundations/radius" element={<FoundationsRadius />} />
-          <Route path="foundations/shadow" element={<FoundationsShadow />} />
-          <Route path="foundations/border" element={<FoundationsBorder />} />
-
-          <Route path="components" element={<ComponentsPage />} />
-          <Route path="components/button" element={<ComponentsButton />} />
-          <Route path="components/text-field" element={<ComponentsTextField />} />
-          <Route path="components/selection-control" element={<ComponentsSelectionControl />} />
-          <Route path="components/tab" element={<ComponentsTab />} />
-          <Route path="components/badge-tag" element={<ComponentsBadgeTag />} />
-          <Route path="components/tooltip" element={<ComponentsTooltip />} />
-          <Route path="components/action-sheets" element={<ComponentsActionSheets />} />
-          <Route path="components/navigation" element={<ComponentsNavigation />} />
-          <Route path="components/modals" element={<ComponentsModals />} />
-          <Route path="components/loading" element={<ComponentsLoading />} />
-          <Route path="components/carousel" element={<ComponentsCarousel />} />
-          <Route path="components/toast" element={<ComponentsToast />} />
-
-          <Route path="contents" element={<ContentsPage />} />
-          <Route path="contents/thumbnail" element={<ContentThumbnail />} />
-          <Route path="contents/banner" element={<ContentBanner />} />
-          <Route path="contents/header" element={<ContentHeader />} />
-          <Route path="contents/footer" element={<ContentFooter />} />
-
-          <Route path="resources" element={<ResourcesPage />} />
-          <Route path="resources/design-story" element={<ResourcesDesignStory />} />
-          <Route path="resources/bx-guidelines" element={<ResourcesBXguidelines />} />
-          <Route path="resources/uxui-guidelines" element={<ResourcesUXUIguidelines />} />
-
-          <Route path="sample" element={<SamplePage />} />
-          <Route path="wishlist" element={<WishlistPage />} />
-          <Route path="*" element={<NotFoundPage />} />
+          {routes.map((route, index) => (
+            <Route key={index} path={route.path} element={route.element} />
+          ))}
         </Routes>
       </App>
     </BrowserRouter>

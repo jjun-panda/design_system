@@ -31,7 +31,7 @@ const SIZES = {
   Large: 16,
   Medium: 16,
   Small: 14,
-  exSmall: 12,
+  exSmall: 14,
 };
 
 const HEIGHTSIZES = {
@@ -44,14 +44,14 @@ const HEIGHTSIZES = {
 const Button = styled.button`
   background-color: var(--light-primary-normal);
   border: none;
-  border-radius: ${({ round }) => (round ? `9999px` : `4px`)};
+  border-radius: ${({ round }) => (round ? `9999px` : `.25rem`)};
   color: var(--white);
   font-size: ${({ size }) => SIZES[size] ?? SIZES["Small"]}px;
   font-weight: 700;
   cursor: pointer;
   padding: 0 16px;
   height: ${({ size }) => HEIGHTSIZES[size] ?? HEIGHTSIZES["Small"]}px;
-  min-width: 120px;
+  min-width: 7.5rem;
   max-width: 400px;
   transition: all 0.3s ease;
 

@@ -1,0 +1,522 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css");
+@font-face {
+  font-family: "Pretendard Variable";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: local("Pretendard Variable"), url("http://www.jjuns-c.com/components/font/woff2/PretendardVariable.woff2"), format("woff2-variations");
+}
+.title40x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.title32x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.title24x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.title20x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.title18x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.125rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.title16x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.title14x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.title12x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.title10x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.625rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.bodyB40x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bodyB32x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bodyB24x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bodyB20x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bodyB18x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bodyB16x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bodyB14x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bodyB12x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.bodyB10x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.625rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.body40x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body32x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body24x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body20x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body18x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body16x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body14x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body12x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body10x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag40x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag32x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag24x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag20x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag18x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag16x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag14x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag12x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.tag10x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.button40x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button32x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button24x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button20x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button18x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button16x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button14x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button12x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button10x {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.025rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.625rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+html, a, p, span {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+  font-weight: 400;
+}
+
+button, b, strong {
+  font-family: "Pretendard Variable";
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+* {
+  font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}

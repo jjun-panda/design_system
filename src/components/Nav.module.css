@@ -1,7 +1,7 @@
 .nav {
   position: relative;
   z-index: 10000001;
-  height: 80px;
+  height: 5rem;
   display: flex;
   align-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
   vertical-align: super;
   font-size: 0.75rem;
   color: var(--light-primary-normal);
-  margin-left: 4px;
+  margin-left: .25rem;
 }
 
 ul.menu {
@@ -46,7 +46,7 @@ ul.menu {
 ul.menu a {
   font-weight: 700;
   position: relative;
-  color: var(--gray-500);
+  color: var(--light-text-assitive);
 }
 /* ul.menu>li:not(:last-child) {
   margin-right: 30px;
@@ -54,7 +54,7 @@ ul.menu a {
 
 ul.menu a:hover,
 ul.menu a:active {
-  color: var(--gray-900);
+  color: var(--light-text-normal);
   /* text-decoration: underline;
   text-decoration-thickness: 2px; */
 }
@@ -65,11 +65,11 @@ ul.menu a:after {
   bottom: -2px;
   width: 0px;
   height: 2px;
-  margin: 4px 0 0;
+  margin: .25rem 0 0;
   transition: all 0.2s ease-in-out;
   transition-duration: 0.3s;
   opacity: 0;
-  background-color: var(--gray-900);
+  background-color: var(--light-text-normal);
 }
 ul.menu a:hover:after {
   width: 100%;
@@ -79,7 +79,7 @@ ul.menu a:hover:after {
 .mobileToggle {
   display: none;
   width: 44px;
-  height: 44px;
+  width: 44px;
   vertical-align: middle;
   position: relative;
 }
@@ -89,13 +89,13 @@ ul.menu a:hover:after {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: .25rem;
   flex-direction: column;
 }
 .mobileToggle span {
   width: 20px;
-  height: 4px;
-  background: var(--gray-900);
+  height: .25rem;
+  background: var(--light-text-normal);
   content: " ";
 }
 .mobileToggle span:nth-child(1) {
@@ -140,7 +140,7 @@ ul.menu a:hover:after {
   .nav::after {
     backdrop-filter: none;
     background-color: var(--white);
-    border-bottom: 1px solid var(--gray-200);
+    border-bottom: 1px solid var(--light-line-normal);
   }
 }
 

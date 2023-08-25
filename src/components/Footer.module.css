@@ -1,7 +1,7 @@
 .footer {
   padding: 40px 0;
-  color: var(--gray-500);
-  background-color: var(--gray-50);
+  color: var(--light-text-assitive);
+  background-color: var(--light-background-tertiary);
 }
 
 /* .links {
@@ -31,10 +31,10 @@
   /* list-style: none; */
 }
 .version {
-  height: 24px;
+  height: 1.5rem;
   padding: 0 16px;
-  background-color: var(--gray-200);
-  color: var(--gray-500);
+  background-color: var(--light-line-normal);
+  color: var(--light-text-assitive);
   border-radius: 12px;
   display: inline-flex;
   align-items: center;

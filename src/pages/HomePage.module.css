@@ -29,7 +29,7 @@
 }
 
 .description {
-  color: var(--gray-900);
+  color: var(--light-text-normal);
   font-weight: 400;
   text-align: left;
   letter-spacing: normal;
@@ -52,8 +52,8 @@
   max-width: calc((100% - 40px) / 3);
   width: 100%;
   box-sizing: border-box;
-  border: 2px solid var(--gray-900);
-  background-color: var(--gray-100);
+  border: 2px solid var(--light-text-normal);
+  background-color: var(--light-fill-primary);
   transition: 1s ease;
 }
 .boxs div.box_size {
@@ -64,7 +64,7 @@
 
 .boxs .box_bran {
   width: 100%;
-  background-color: var(--gray-900);
+  background-color: var(--light-text-normal);
 }
 
 .boxs .box_one {
@@ -94,8 +94,8 @@
 }
 .boxs .box_size:hover {
   background-color: var(--white);
-  border: 2px solid var(--gray-900);
-  box-shadow: 5px 5px var(--gray-700);
+  border: 2px solid var(--light-text-normal);
+  box-shadow: 5px 5px var(--light-text-alternative);
   -webkit-transform: translateY(-5px) translateX(-5px);
   transform: translateY(-5px) translateX(-5px);
 }
@@ -113,7 +113,7 @@
 .boxs .box_info {
   /* min-height: 400px; */
   aspect-ratio: 1;
-  padding: 24px;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,8 +135,8 @@
   width: 100%;
   max-width: 1180px;
   width: 100%;
-  background-color: var(--light-primary-normal);
-  margin: 80px auto 0;
+  background-color: var(--light-secondary-strong);
+  margin: 5rem auto 0;
   border-radius: 20px;
 }
 .pc_video {
@@ -159,11 +159,11 @@
 
 @media (max-width: 1179px) {
   .texts {
-    margin: 0 24px;
+    margin: 0 1.5rem;
   }
 
   .boxs .box_one {
-    padding: 160px 24px;
+    padding: 160px 1.5rem;
   }
   .visual_area {
     border-radius: 0;
@@ -185,7 +185,7 @@
 
 @media (max-width: 767px) {
   .boxs {
-    margin: 80px 0;
+    margin: 5rem 0;
   }
   .heading {
     font-size: 3.5rem;
@@ -198,19 +198,19 @@
     display: block;
   }
   .boxs {
-    gap: 24px;
+    gap: 1.5rem;
   }
   .boxs .box_size {
     max-width: calc(100%);
-    border: 1px solid var(--gray-200);
+    border: 1px solid var(--light-line-normal);
     background-color: var(--white);
-    margin: 0 24px;
+    margin: 0 1.5rem;
     border-radius: 8px;
   }
 
   .boxs .box_size:hover {
-    background-color: var(--gray-100);
-    border: 1px solid var(--gray-100);
+    background-color: var(--light-fill-primary);
+    border: 1px solid var(--light-line-normal);
     box-shadow: none;
     -webkit-transform: none;
     transform: none;

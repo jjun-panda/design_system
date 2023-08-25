@@ -101,10 +101,10 @@ function ComponentsLoading() {
             <div>
               <p className={classNames(styles.textMain, "bodyB24x")}>01. Brand Button</p>
               <p className={classNames(styles.textBody, "body16x")}>
-                JJUN Creative은 `Brand Main Button`의 `Primary` 색상을 브랜드 컬러 메인으로
-                사용합니다. <br></br>컨텐츠의 위계 구조에 따라 `Secondary` 컬러를 부가적으로 사용할
+                JJUN Creative은 Brand Main Button의 Primary 색상을 브랜드 컬러 메인으로
+                사용합니다. <br></br>컨텐츠의 위계 구조에 따라 Secondary 컬러를 부가적으로 사용할
                 수 있습니다. JJUN Creative 디자인 시스템의 브랜드 컬러는 서비스에 맞게 색상 변경이
-                가능하며, 각 색상은 `Brand Sub Button`와 대응되어 아이콘, 컴포넌트 등의 요소에
+                가능하며, 각 색상은 Brand Sub Button와 대응되어 아이콘, 컴포넌트 등의 요소에
                 사용됩니다.
               </p>
             </div>

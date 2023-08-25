@@ -2,7 +2,8 @@
 <html lang="ko">
   <head>
     <title>JJUN Design System</title>
-    <link rel="icon" href="%PUBLIC_URL%/favicon.svg" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.svg" /> -->
+    <link rel="icon" href="http://www.jjuns-c.com/favicon.ico" />
     <!-- Meta Tags-->
     <meta charset="utf-8" />
     <meta
@@ -10,7 +11,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi"
     />
     <meta name="theme-color" content="#ffffff" />
-    
+
     <link rel="icon" href="http://www.jjuns-c.com/img/JUN-logo.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="http://www.jjuns-c.com/img/JUN-logo_icon.png" />
     <meta property="og:image" content="http://www.jjuns-c.com/img/ogimg.jpg" />
@@ -51,9 +52,7 @@
       (function () {
         var w = window;
         if (w.ChannelIO) {
-          return (window.console.error || window.console.log || function () {})(
-            "ChannelIO script included twice."
-          );
+          return w.console.error("ChannelIO script included twice.");
         }
         var ch = function () {
           ch.c(arguments);
@@ -72,21 +71,21 @@
           s.type = "text/javascript";
           s.async = true;
           s.src = "https://cdn.channel.io/plugin/ch-plugin-web.js";
-          s.charset = "UTF-8";
           var x = document.getElementsByTagName("script")[0];
-          x.parentNode.insertBefore(s, x);
+          if (x.parentNode) {
+            x.parentNode.insertBefore(s, x);
+          }
         }
         if (document.readyState === "complete") {
           l();
-        } else if (window.attachEvent) {
-          window.attachEvent("onload", l);
         } else {
-          window.addEventListener("DOMContentLoaded", l, false);
-          window.addEventListener("load", l, false);
+          w.addEventListener("DOMContentLoaded", l);
+          w.addEventListener("load", l);
         }
       })();
+
       ChannelIO("boot", {
-        pluginKey: "0fad9d1e-153d-4447-8e8b-42f61b7db17e",
+        pluginKey: "ecae06eb-f4ea-4702-8f93-f6614c77f609",
       });
     </script>
     <!-- End Channel Plugin -->

@@ -5,7 +5,7 @@
 
   /* =============== Light =============== */
   /* Prinary Color */
-  --light-primary-normal: #7143ff;
+  var(--light-primary-normal): #7143ff;
   --light-primary-strong: #5a36cc;
   --light-primary-heavy: #442899;
   --light-primary-alternarive: #aa8eff;
@@ -61,7 +61,7 @@
   --light-fill-disable: #ccc;
   --light-fill-alternative: #dedede;
 
-  /* =============== Light =============== */
+  /* =============== Dark =============== */
   /* Prinary Color */
   --dark-primary-normal: #6b40f2;
   --dark-primary-heavy: #3e258c;

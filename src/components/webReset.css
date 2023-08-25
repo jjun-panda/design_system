@@ -127,7 +127,7 @@ hr {
   margin: 64px 0;
   border: 0;
   height: 1px;
-  background-color: var(--gray-200);
+  background-color: var(--light-line-normal);
 }
 
 mark {
@@ -147,7 +147,7 @@ pre {
 }
 
 code {
-  color: var(--gray-400);
+  color: var(--light-text-dlsable);
 }
 
 .mobile {

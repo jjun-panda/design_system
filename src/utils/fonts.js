@@ -116,7 +116,7 @@ const textStyles = StyleSheet.create({
   checkbox16: {
     fontFamily: "PretendardVariable",
     fontSize: 16,
-    fontWeight: "500",
+    fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 16,
     letterSpacing: 0,
@@ -164,7 +164,7 @@ const textStyles = StyleSheet.create({
   tag14: {
     fontFamily: "PretendardVariable",
     fontSize: 14,
-    fontWeight: "500",
+    fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 17.5,
     letterSpacing: 0,
@@ -172,7 +172,7 @@ const textStyles = StyleSheet.create({
   checkbox14: {
     fontFamily: "PretendardVariable",
     fontSize: 14,
-    fontWeight: "500",
+    fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 14,
     letterSpacing: 0,
@@ -214,7 +214,7 @@ const textStyles = StyleSheet.create({
   caption: {
     fontFamily: "PretendardVariable",
     fontSize: 12,
-    fontWeight: "500",
+    fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 15,
     letterSpacing: 0,
@@ -224,7 +224,7 @@ const textStyles = StyleSheet.create({
   tag12: {
     fontFamily: "PretendardVariable",
     fontSize: 12,
-    fontWeight: "500",
+    fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 15,
     letterSpacing: 0,
@@ -232,7 +232,7 @@ const textStyles = StyleSheet.create({
   tag10: {
     fontFamily: "PretendardVariable",
     fontSize: 10,
-    fontWeight: "500",
+    fontWeight: "400",
     fontStyle: "normal",
     lineHeight: 12.5,
     letterSpacing: 0,
